@@ -1,37 +1,45 @@
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
-
-
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'scrooloose/nerdtree'
 Plug 'tsony-tsonev/nerdtree-git-plugin'
 Plug 'ap/vim-css-color'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'dense-analysis/ale'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
 Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim' " fuzzy find files
-
+Plug 'rust-lang/rust.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'itchyny/lightline.vim'
 Plug 'christoomey/vim-tmux-navigator'
-
 Plug 'dracula/vim', { 'as': 'dracula' }
-:
 Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 
 
 
-
-
-syntax enable
 " Initialize plugin system
 call plug#end()
 
+
+syntax on
+set background=dark
+colorscheme ron
+highlight CocErrorSign guibg=#000000
+
+augroup colorscheme_override
+  autocmd!
+  autocmd ColorScheme ron highlight CocErrorSign ctermfg=Black
+  autocmd ColorScheme ron highlight CocWarningSign ctermfg=Black
+augroup END
+let mapleader = "\<Space>"
+
+" Vim highlight the PMenu box and alter the font color 
 " Press ww to do a w!
 inoremap ww <ESC>:w!<CR>
-" Press nn to return to normal mode when in insert mode
+" Press ii to return to normal mode when in insert mode
 inoremap ii <ESC>
 inoremap <ESC> <NOP>
 
@@ -64,7 +72,7 @@ let g:NERDTreeGitStatusWithFlags = 1
     "\ }
 
 
-
+let g:rustfmt_autosave = 1 
 let g:NERDTreeIgnore = ['^node_modules$']
 
 
@@ -76,11 +84,11 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 " run prettier on save
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
-
-
-
-
 set bs=indent,eol,start
+
+let &t_SI.="\e[5 q" "SI = INSERT mode
+let &t_SR.="\e[4 q" "SR = REPLACE mode
+let &t_EI.="\e[1 q" "EI = NORMAL mode (ELSE)
 
 " ctrlp
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
@@ -122,10 +130,22 @@ set incsearch
 set scrolloff=8
 set noshowmode
 
+filetype plugin indent on
 " sync open file with NERDTree
 " " Check if NERDTree is open or active
 function! IsNERDTreeOpen()
   return exists("t:NERDTreeBufName") && (bufwinnr(t:NERDTreeBufName) != -1)
+endfunction
+
+" Use K to show documentation in preview window.
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  else
+    call CocAction('doHover')
+  endif
 endfunction
 
 " Call NERDTreeFind iff NERDTree is active, current window contains a modifiable
@@ -156,12 +176,13 @@ autocmd BufEnter * call SyncTree()
 
 
 let g:lightline = {
-  \ 'colorscheme': 'deus',
+  \ 'colorscheme': 'powerlineish',
   \ 'active': {
-  \   'right': [['lineinfo'], ['fileformat', 'filetype']]
+  \   'right': [['lineinfo'], ['cocstatus', 'fileformat', 'filetype']]
   \ },
   \ 'component_function': {
-  \   'filename': 'LightLineFilename'
+  \   'filename': 'LightLineFilename',
+  \   'cocstatus':'coc#status'
   \ },
   \ 'component': {
   \   'lineinfo': "[%l:%-v] [%{printf('%03d/%03d',line('.'),line('$'))}]",
@@ -186,8 +207,9 @@ let g:coc_global_extensions = [
   \ ]
 " from readme
 " if hidden is not set, TextEdit might fail.
-set hidden " Some servers have issues with backup files, see #649 set nobackup set nowritebackup " Better display for messages set cmdheight=2 " You will have bad experience for diagnostic messages when it's default 4000.
-set updatetime=50
+set hidden 
+" Some servers have issues with backup files, see #649 set nobackup set nowritebackup  Better display for messages set cmdheight=2 " You will have bad experience for diagnostic messages when it's default 4000.
+set updatetime=100
 
 " don't give |ins-completion-menu| messages.
 set shortmess+=c
