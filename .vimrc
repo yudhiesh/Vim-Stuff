@@ -1,3 +1,42 @@
+syntax on
+filetype plugin indent on
+
+set t_Co=256
+set background=dark
+set guicursor=
+set relativenumber
+set nohlsearch
+set hidden
+set noerrorbells
+set tabstop=4 softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+set nu
+set nowrap
+set smartcase
+set noswapfile
+set nobackup
+set undodir=~/.vim/undodir
+set undofile
+set incsearch
+set termguicolors
+set scrolloff=8
+set noshowmode
+set completeopt=menuone,noinsert,noselect
+
+" Give more space for displaying messages.
+set cmdheight=2
+
+" Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
+" delays and poor user experience.
+set updatetime=50
+
+" Don't pass messages to |ins-completion-menu|.
+set shortmess+=c
+
+        
+
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -15,40 +54,20 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'itchyny/lightline.vim'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
-
-
+Plug 'kiteco/vim-plugin'
+Plug 'mattn/emmet-vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'dracula/vim', { 'name': 'dracula' }
 
 " Initialize plugin system
 call plug#end()
 
 
-syntax on
-set background=dark
-colorscheme ron
-highlight CocErrorSign guibg=#000000
-
-augroup colorscheme_override
-  autocmd!
-  autocmd ColorScheme ron highlight CocErrorSign ctermfg=Black
-  autocmd ColorScheme ron highlight CocWarningSign ctermfg=Black
-augroup END
+colorscheme dracula
 let mapleader = "\<Space>"
 
 " Vim highlight the PMenu box and alter the font color 
-" Press ww to do a w!
-inoremap ww <ESC>:w!<CR>
-" Press ii to return to normal mode when in insert mode
-inoremap ii <ESC>
-inoremap <ESC> <NOP>
-
-" Press ii to return to normal mode when in visual mode
-vnoremap ii <ESC>
-vnoremap <ESC> <NOP>
-
-" Press ii when in Command mode, to go back to normal mode
-cnoremap ii <ESC>
 nmap <C-n> :NERDTreeToggle<CR>
 vmap ++ <plug>NERDCommenterToggle
 nmap ++ <plug>NERDCommenterToggle
@@ -100,36 +119,6 @@ nmap <leader>p  <Plug>(coc-format-selected)
 noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
 noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
 
-set laststatus=2
-set cmdheight=2
-set smartindent
-set guicursor=
-set noswapfile
-set smarttab
-set incsearch 
-set cindent
-set tabstop=2
-set guicursor=
-set relativenumber
-set nohlsearch
-set hidden
-set noshowmode
-set noerrorbells
-set tabstop=4 softtabstop=4
-set shiftwidth=4
-set expandtab
-set smartindent
-set nu
-set nowrap
-set smartcase
-set noswapfile
-set nobackup
-set undodir=~/.vim/undodir
-set undofile
-set incsearch
-set scrolloff=8
-set noshowmode
-
 filetype plugin indent on
 " sync open file with NERDTree
 " " Check if NERDTree is open or active
@@ -176,7 +165,7 @@ autocmd BufEnter * call SyncTree()
 
 
 let g:lightline = {
-  \ 'colorscheme': 'powerlineish',
+  \ 'colorscheme': 'dracula',
   \ 'active': {
   \   'right': [['lineinfo'], ['cocstatus', 'fileformat', 'filetype']]
   \ },
@@ -206,16 +195,6 @@ let g:coc_global_extensions = [
   \ 'coc-clangd'
   \ ]
 " from readme
-" if hidden is not set, TextEdit might fail.
-set hidden 
-" Some servers have issues with backup files, see #649 set nobackup set nowritebackup  Better display for messages set cmdheight=2 " You will have bad experience for diagnostic messages when it's default 4000.
-set updatetime=100
-
-" don't give |ins-completion-menu| messages.
-set shortmess+=c
-
-" always show signcolumns
-set signcolumn=yes
 
 " Use tab for trigger completion with characters ahead and navigate.
 " Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
