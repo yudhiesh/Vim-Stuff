@@ -1,43 +1,49 @@
 syntax on
-filetype plugin indent on
 
 set t_Co=256
 set background=dark
+set laststatus=2
+set cmdheight=2
+set smartindent
+set nocursorline
+set noswapfile
+set smarttab
+set incsearch 
+set cindent
+set tabstop=2
 set guicursor=
 set relativenumber
 set nohlsearch
-set hidden
+set noshowmode
 set noerrorbells
 set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
 set nu
-set nowrap
+set wrap
 set smartcase
 set noswapfile
 set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
-set termguicolors
-set scrolloff=8
-set noshowmode
-set completeopt=menuone,noinsert,noselect
+set statusline=%<%f\ %h%m%r%{kite#statusline()}%=%-14.(%l,%c%V%)\ %P
+set laststatus=2  
 
-" Give more space for displaying messages.
-set cmdheight=2
-
-" Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
-" delays and poor user experience.
+" if hidden is not set, TextEdit might fail.
+set hidden 
+" Some servers have issues with backup files, see #649 set nobackup set nowritebackup  Better display for messages set cmdheight=2 " You will have bad experience for diagnostic messages when it's default 4000.
 set updatetime=50
+set nocompatible
 
-" Don't pass messages to |ins-completion-menu|.
+" don't give |ins-completion-menu| messages.
 set shortmess+=c
 
         
 
 " Specify a directory for plugins
+" Initialize plugin system
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'scrooloose/nerdtree'
@@ -58,13 +64,19 @@ Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 Plug 'kiteco/vim-plugin'
 Plug 'mattn/emmet-vim'
 Plug 'sheerun/vim-polyglot'
-Plug 'dracula/vim', { 'name': 'dracula' }
-
-" Initialize plugin system
+Plug 'bignimbus/pop-punk.vim'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 call plug#end()
+" use a better vertsplit char
+set fillchars+=vert:│
 
 
-colorscheme dracula
+let g:pop_punk_italic = 0
+
+colorscheme pop-punk
+
+
 let mapleader = "\<Space>"
 
 " Vim highlight the PMenu box and alter the font color 
@@ -77,23 +89,22 @@ nmap ++ <plug>NERDCommenterToggle
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.js,*.svelte'
 let NERDTreeShowHidden=1
 let g:NERDTreeGitStatusWithFlags = 1
-"let g:WebDevIconsUnicodeDecorateFolderNodes = 1
+let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 "let g:NERDTreeGitStatusNodeColorization = 1
 "let g:NERDTreeColorMapCustom = {
-    "\ "Staged"    : "#0ee375",
-    "\ "Modified"  : "#d9bf91",
-    "\ "Renamed"   : "#51C9FC",
-    "\ "Untracked" : "#FCE77C",
-    "\ "Unmerged"  : "#FC51E6",
-    "\ "Dirty"     : "#FFBD61",
-    "\ "Clean"     : "#87939A",
-    "\ "Ignored"   : "#808080"
-    "\ }
+"    "\ "Staged"    : "#0ee375",
+"    "\ "Modified"  : "#d9bf91",
+"    "\ "Renamed"   : "#51C9FC",
+"    "\ "Untracked" : "#FCE77C",
+"    "\ "Unmerged"  : "#FC51E6",
+"    "\ "Dirty"     : "#FFBD61",
+"    "\ "Clean"     : "#87939A",
+"    "\ "Ignored"   : "#808080",
+"    "\ }
 
 
 let g:rustfmt_autosave = 1 
 let g:NERDTreeIgnore = ['^node_modules$']
-
 
 "vim-prettier
 let g:prettier#quickfix_enabled = 0
@@ -112,6 +123,17 @@ let &t_EI.="\e[1 q" "EI = NORMAL mode (ELSE)
 " ctrlp
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
+
+" Set cursor from block to line when switching between insert and other modes
+if exists('$TMUX')
+  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+else
+  let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+  let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+endif
+:autocmd InsertEnter * set cul
+:autocmd InsertLeave * set nocul
 
 nmap <leader>p  <Plug>(coc-format-selected)
 
@@ -164,8 +186,9 @@ endif
 autocmd BufEnter * call SyncTree()
 
 
+
 let g:lightline = {
-  \ 'colorscheme': 'dracula',
+  \ 'colorscheme': 'pop_punk',
   \ 'active': {
   \   'right': [['lineinfo'], ['cocstatus', 'fileformat', 'filetype']]
   \ },
@@ -305,3 +328,4 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+
