@@ -11,6 +11,8 @@
         "python",
         "java"
     ],
+    "python.jediEnabled": true,
+    "python.jediPath": "/Users/yudhiesh/anaconda3/lib/python3.7/site-packages",
     "python.linting.enabled": false,
     "python.linting.pylintEnabled": false,
     "python.formatting.provider": "black",
