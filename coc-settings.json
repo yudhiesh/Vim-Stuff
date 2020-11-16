@@ -4,6 +4,8 @@
         "markdown",
         "javascript",
         "typescript",
+        "typescriptreact",
+        "javascriptreact",
         "graphql",
         "html",
         "yaml",
@@ -11,11 +13,14 @@
         "python",
         "java"
     ],
+    "coc.preferences.formatOnType": true,
     "python.jediEnabled": true,
     "python.jediPath": "/Users/yudhiesh/anaconda3/lib/python3.7/site-packages",
     "python.linting.enabled": false,
     "python.linting.pylintEnabled": false,
     "python.formatting.provider": "black",
+    "eslint.autoFixOnSave": true,
+    "tsserver.formatOnType": true,
     "eslint.filetypes": [
         "javascript",
         "typescript",
@@ -28,10 +33,5 @@
             "node": true
         }
     },
-    "snippets.extends": {
-        "cpp": ["c"],
-        "javascriptreact": ["javascript"],
-        "typescriptreact": ["typescript"],
-        "typescript": ["typescript"]
-    }
+    "prettier.disableSuccessMessage": true
 }
