@@ -79,9 +79,6 @@ colorscheme pop-punk
 
 let mapleader = "\<Space>"
 
-" open NERDTree automatically
-"autocmd StdinReadPre * let s:std_in=1
-"autocmd VimEnter * NERDTree
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.js,*.svelte'
 let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 
@@ -123,8 +120,12 @@ endif
 nmap <leader>p  <Plug>(coc-format-selected)
 
 " FZF key bindings
-nnoremap <C-p> :FZF<CR>
+nnoremap <silent> <C-p> :Files<CR>
+nnoremap <silent> <C-f> :Rg<CR>
+command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
 
+set rtp+=~/.fzf
+set rtp+=/usr/local/opt/fzf
 
 " An action can be a reference to a function that processes selected lines
 function! s:build_quickfix_list(lines)
@@ -188,11 +189,6 @@ noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
 noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
 
 filetype plugin indent on
-" sync open file with NERDTree
-" " Check if NERDTree is open or active
-function! IsNERDTreeOpen()
-  return exists("t:NERDTreeBufName") && (bufwinnr(t:NERDTreeBufName) != -1)
-endfunction
 
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call <SID>show_documentation()<CR>
@@ -205,14 +201,6 @@ function! s:show_documentation()
   endif
 endfunction
 
-" Call NERDTreeFind iff NERDTree is active, current window contains a modifiable
-" file, and we're not in vimdiff
-function! SyncTree()
-  if &modifiable && IsNERDTreeOpen() && strlen(expand('%')) > 0 && !&diff
-    NERDTreeFind
-    wincmd p
-  endif
-endfunction
 
 if executable('clangd')
     augroup lsp_clangd
@@ -228,8 +216,6 @@ if executable('clangd')
         autocmd FileType objcpp setlocal omnifunc=lsp#complete
     augroup end
 endif
-" Highlight currently open buffer in NERDTree
-autocmd BufEnter * call SyncTree()
 
 
 
