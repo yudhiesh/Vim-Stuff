@@ -120,9 +120,16 @@ endif
 nmap <leader>p  <Plug>(coc-format-selected)
 
 " FZF key bindings
-nnoremap <silent> <C-p> :Files<CR>
+nnoremap <silent> <C-p> :ProjectFiles<CR>
 nnoremap <silent> <C-f> :Rg<CR>
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
+
+" Search from the root of a git project
+function! s:find_git_root()
+  return system('git rev-parse --show-toplevel 2> /dev/null')[:-2]
+endfunction
+
+command! ProjectFiles execute 'Files' s:find_git_root()
 
 set rtp+=~/.fzf
 set rtp+=/usr/local/opt/fzf
