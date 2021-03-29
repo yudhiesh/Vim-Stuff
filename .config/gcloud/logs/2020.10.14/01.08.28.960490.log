@@ -1,9 +1,0 @@
-2020-10-14 01:08:28,974 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
-2020-10-14 01:08:28,978 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
-2020-10-14 01:08:28,980 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "yudhiesh@driverdrowsiness.iam.gserviceaccount.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "driverdrowsiness"]
-2020-10-14 01:08:30,273 INFO     root            Display format: "default value(name)"
-2020-10-14 01:08:30,274 INFO     ___FILE_ONLY___ driverdrowsiness
-
-2020-10-14 01:08:30,277 DEBUG    root            Checking for updates...
-2020-10-14 01:08:30,431 DEBUG    root            Updating notification cache...
-2020-10-14 01:08:30,432 DEBUG    root            Activating notification: [default]
