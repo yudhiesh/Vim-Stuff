@@ -1,0 +1,11 @@
+clangd.install
+python.setInterpreter
+snippets
+snippets.openSnippetFiles
+snippets.editSnippets
+rust-analyze.upgrade
+rust-analyzer
+prettier.formatFile
+clangd.update
+marketplace
+workspace.clearWatchman

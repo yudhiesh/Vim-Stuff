@@ -1,0 +1,18 @@
+2020-10-25 00:09:02,039 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2020-10-25 00:09:02,041 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'configurations']
+2020-10-25 00:09:02,047 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'configurations', 'describe']
+2020-10-25 00:09:02,049 DEBUG    root            Running [gcloud.config.configurations.describe] with arguments: [--format: "value[separator=""](properties.core.account,properties.core.project)", CONFIGURATION_NAME: "default"]
+2020-10-25 00:09:02,053 INFO     root            Display format: "default value[separator=""](properties.core.account,properties.core.project)"
+2020-10-25 00:09:02,053 INFO     ___FILE_ONLY___ yudhiesh@driverdrowsiness.iam.gserviceaccount.comdriverdrowsiness
+
+2020-10-25 00:09:02,106 DEBUG    root            [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/yudhiesh/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 983, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/Users/yudhiesh/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 810, in Run
+    display_info=self.ai.display_info).Display()
+  File "/Users/yudhiesh/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/display.py", line 491, in Display
+    log.out.flush()
+  File "/Users/yudhiesh/Downloads/google-cloud-sdk/lib/googlecloudsdk/core/log.py", line 249, in flush
+    self.__stream_wrapper.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe

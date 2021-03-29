@@ -1,0 +1,6 @@
+2020-09-30 22:47:49,631 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2020-09-30 22:47:49,636 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2020-09-30 22:47:49,638 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "yudhiesh@driverdrowsiness.iam.gserviceaccount.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "driverdrowsiness"]
+2020-09-30 22:47:50,916 INFO     root            Display format: "default value(name)"
+2020-09-30 22:47:50,917 INFO     ___FILE_ONLY___ driverdrowsiness
+

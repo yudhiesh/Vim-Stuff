@@ -1,0 +1,3573 @@
+{
+  "coc-python|/Users/yudhiesh": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/black/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/black",
+        "fileHash": "e7ccf75c97ad5df862fdc2c8d21a3d3a558f0aac410b6b022343766e44d85adcec1e23129dc311403622624507bba3555ba4429dab34c2c3ad204b68711ee14c",
+        "envName": "black",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/black/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/black",
+        "fileHash": "bb1f6de96bd4d89c9758f2eecda8a2a61c2dac3022a998a6813849a36c746919333403dcbac3b6b7ed71e7f6a93bf1e496a8772c575a9a579484812b0d47f1c3",
+        "envName": "black",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/jedi/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/jedi",
+        "fileHash": "ae5c5b7463d7cc55358b95427c921739816dec1924e4416ca8423b52836b0876731dfff5c7252c70fa8691f4a689c59b66f9048177f9f7144367c77424035c87",
+        "envName": "jedi",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/jedi/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/jedi",
+        "fileHash": "66f583ae00464f9dc8e26f7e52d65726777f39421e6b74dd6f02de15ae2446ccf40acb7fe761689db435c4e5d7cafd1b6dd1df72ffc487f04d1b21d3bbc55c81",
+        "envName": "jedi",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/neovim/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/neovim",
+        "fileHash": "0a28e8322fa9a27edb559011b9d89c710eeba599c914c384756048df73983cd59b3f6b00d56f9d013faf2fca826955904f1771706b4a38cb412e287a7a956b09",
+        "envName": "neovim",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/neovim/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/neovim",
+        "fileHash": "f17c28da3bc1d13607ea1f5d49052f9a89ca2cbbdbdeccc148bca09184444b86adcb9a7dff6f21614bc3f192a09c9b0cd2459a94a565bdcb2426b2fc60f4ba2c",
+        "envName": "neovim",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/pylint/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/pylint",
+        "fileHash": "7d95cd7edacafe3f87644a5ff50763ef2c1991cc7f519ccec4c6f13a8e7f56a865a70a232296c08b906c104c383195400709e3f5bc2cc763dfbb2a685de84360",
+        "envName": "pylint",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/pylint/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/pylint",
+        "fileHash": "a71d1c7b01c035669ee85457bae20debeae3c92a66ba302d382e6bf2afa26e2234d6d5cc4a9bb839e8023384520ae7f3ce236fe79e94797512ca5e5d97d64513",
+        "envName": "pylint",
+        "type": "Venv"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+        "fileHash": "e5d8ac1a93d80ff986a846bcf5d08d89ea0bcc74ccaed483cc854e52286d859543b6ebb1d92f4090dd9de74190defc3a2843735d71eb43d4a92c6fe589c2a535",
+        "envName": "3.8.5",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+        "fileHash": "b0fcfdf77281a3b30e61d5a795530bfc6f97cec822a7dc14653e589fe6388fd5da37a8d37cf0ae5313863d0a00ecbe339c0dca5e3c0844d0e52a1301469b3f35",
+        "envName": "3.8.5",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+        "fileHash": "aa732298f2026f84c8cb1ca9fb37569a5c6670f31322942c133b427770a77a47423d6593813ebc86de9d2e288a0c17027694623ee46e81ac98701e50569816a4",
+        "envName": "3.8.5",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/versions/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/venv",
+        "fileHash": "5fcfbc595012c8dbd20ff4b3c1d83dacc86deb0fb94618691b302513e4131fd968a4ca5e9c5d3f8535fa8f3a21e90b0d8d5d2e08ac9f9dc5a636143ae7779611",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/versions/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/venv",
+        "fileHash": "91ccb2f708573649907dfe0f734cc22af88b66502a2693325d530a8420b255f02bf3909d27ae9eb60b2fb49770e5baf73882f2decee2b00a98f5aad7570a625c",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/versions/venv/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/venv",
+        "fileHash": "536a9d1820753710aa8e714b5ffcf30d1f8e822a95fa7e7d48dd8ddc3d0d7f62e2538300d932522fc13d0cab4691d6fdfa2931d06076726337a328d8c9239a8e",
+        "envName": "venv",
+        "type": "Venv"
+      }
+    ],
+    "/Users/yudhiesh/anaconda3/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3",
+        "fileHash": "17ad9a4b3e64f58498973e95dc72e5117cdd2d6cf3f7328748b9f72306e6adf0aa73af3d0b878856b89b8c43ccdb4a58c15c9d2c2c957f4f3a230ad2981313e7"
+      },
+      "expiry": 1611999726427
+    },
+    "/Users/yudhiesh/anaconda3/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3",
+        "fileHash": "3cc43c4c8b2e64eb1ddf508ce75dbd1691230bae842f58de2c3b8bf70c5d1075119621e1b723d269230ed8fa6cda3f236f201db12bead8c4190a8c1d6033a108"
+      },
+      "expiry": 1611999726430
+    },
+    "/Users/yudhiesh/anaconda3/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3",
+        "fileHash": "8aa13044e7627c80bda8960a8e0a6b97481e44be96644a6496885caf1ff71f938caade4bd46dd582dee2c1ed3b002f0a6f3f83ec9159a3ba4792cb5c2392d78a"
+      },
+      "expiry": 1611999726425
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1611999726485
+    },
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1611999726415
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1611999726420
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1611999726765
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3",
+        "fileHash": "8aa13044e7627c80bda8960a8e0a6b97481e44be96644a6496885caf1ff71f938caade4bd46dd582dee2c1ed3b002f0a6f3f83ec9159a3ba4792cb5c2392d78a",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+        "fileHash": "b0fcfdf77281a3b30e61d5a795530bfc6f97cec822a7dc14653e589fe6388fd5da37a8d37cf0ae5313863d0a00ecbe339c0dca5e3c0844d0e52a1301469b3f35",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+        "fileHash": "e5d8ac1a93d80ff986a846bcf5d08d89ea0bcc74ccaed483cc854e52286d859543b6ebb1d92f4090dd9de74190defc3a2843735d71eb43d4a92c6fe589c2a535",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/envs/opencv-env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.10-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.10-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3/envs/opencv-env",
+        "fileHash": "8e1279d2bcb6f6e020901b28492ba201d3ba238e92cc00876e8bac884d9362a641f42ac53610f6b52b3573618b36833b192514be118785f246b6798988618e99",
+        "type": "Unknown"
+      }
+    ],
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/Users/yudhiesh/anaconda3/envs/env/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/Users/yudhiesh/anaconda3/envs/env",
+      "fileHash": "2b6c9cfe4d6f31e3fed67368954c1b4ae67bcb2196800cd1811c717bf0425f7c6a033b48c848ba86fc7b013f518d744f84d35628f2a39cdf5ce85f2b468471c4",
+      "type": "Unknown",
+      "displayName": "Python 3.8.5 64-bit"
+    },
+    "/Users/yudhiesh/anaconda3/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "3cc43c4c8b2e64eb1ddf508ce75dbd1691230bae842f58de2c3b8bf70c5d1075119621e1b723d269230ed8fa6cda3f236f201db12bead8c4190a8c1d6033a108",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/yudhiesh/anaconda3/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Users/yudhiesh/anaconda3",
+          "fileHash": "3cc43c4c8b2e64eb1ddf508ce75dbd1691230bae842f58de2c3b8bf70c5d1075119621e1b723d269230ed8fa6cda3f236f201db12bead8c4190a8c1d6033a108",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/yudhiesh/anaconda3",
+          "envName": "base",
+          "displayName": "Python 3.7.3 64-bit ('base': conda)"
+        }
+      },
+      "expiry": 1611926197961
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1611999726482
+    },
+    "/Users/yudhiesh/anaconda3/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit ('base': conda)",
+        "hash": "3cc43c4c8b2e64eb1ddf508ce75dbd1691230bae842f58de2c3b8bf70c5d1075119621e1b723d269230ed8fa6cda3f236f201db12bead8c4190a8c1d6033a108-3e461326d5cb99806c02297c945475de"
+      },
+      "expiry": 1611926197944
+    },
+    "/usr/local/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.7",
+        "fileHash": "6f9f6d19ab3746e2146e67e868b3014264336803f7bf7899895193a65b6d1bff26bef32f5d95501c68333df200c62103ac3e38efcc2d78eb69773a4d8eac77fa"
+      },
+      "expiry": 1611999726422
+    },
+    "/Users/yudhiesh/anaconda3/envs/chatbot/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/envs/chatbot/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.10-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.10-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3/envs/chatbot",
+        "fileHash": "74896f69bd73ee8ee1cc8773b4c385d94ed2c3ea3e3cd65b56e9bc1bcb30a148e0069736a89132cee4e2bad221c13e026e32a09d9bf85ef0633b365da3ca4b43"
+      },
+      "expiry": 1611999727075
+    },
+    "/Users/yudhiesh/anaconda3/envs/opencv-env/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/envs/opencv-env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.10-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.10-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3/envs/opencv-env",
+        "fileHash": "8e1279d2bcb6f6e020901b28492ba201d3ba238e92cc00876e8bac884d9362a641f42ac53610f6b52b3573618b36833b192514be118785f246b6798988618e99"
+      },
+      "expiry": 1611999726764
+    },
+    "/usr/local/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.0-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.0-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "106729ed0724a003941fdc3a21528a1283988d800167c3c8877476242e72586168da24cae62c61a483b29755a5b5279ddb249e0c8ba7309fcd5d8a53f3345455"
+      },
+      "expiry": 1611999726423
+    },
+    "/usr/local/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.0-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.0-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "9a9dfa17f3bf2bcc24017a1b4b984aefb70de73d54757534a47b56878347cc40a5be98f1ac70aae8bf936d8347ab778e1a6fe30eb4566904508f4d05c5934dfe"
+      },
+      "expiry": 1611999726484
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/shims/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+        "fileHash": "ca8e3959c998dc41e72a752b46762f814c48b91da6abacc700e43bf233a8ac4544604ddb0c237967b14125345ae87afe3ca0cca12a9bc7f4c3550320c1fc9323",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/shims/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+        "fileHash": "b8f6f117bd993823496f0d64e2e87cadbbb7c3406ae509c53178252c6827fc196093cf68ba502d34564a7a33e5ceabb1e30c6cffa8e5d118849a6a366b1a228c",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/shims/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+        "fileHash": "26b5a458581d506924147e3648075777c01f07061c8469f891c825823502bc526514b186397ff59eab3f145ad862269dacfdc1e00479a9264c56bfb1a39a7a34",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3",
+        "fileHash": "3cc43c4c8b2e64eb1ddf508ce75dbd1691230bae842f58de2c3b8bf70c5d1075119621e1b723d269230ed8fa6cda3f236f201db12bead8c4190a8c1d6033a108",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3",
+        "fileHash": "17ad9a4b3e64f58498973e95dc72e5117cdd2d6cf3f7328748b9f72306e6adf0aa73af3d0b878856b89b8c43ccdb4a58c15c9d2c2c957f4f3a230ad2981313e7",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3",
+        "fileHash": "8aa13044e7627c80bda8960a8e0a6b97481e44be96644a6496885caf1ff71f938caade4bd46dd582dee2c1ed3b002f0a6f3f83ec9159a3ba4792cb5c2392d78a",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.0-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.0-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "106729ed0724a003941fdc3a21528a1283988d800167c3c8877476242e72586168da24cae62c61a483b29755a5b5279ddb249e0c8ba7309fcd5d8a53f3345455",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.7",
+        "fileHash": "6f9f6d19ab3746e2146e67e868b3014264336803f7bf7899895193a65b6d1bff26bef32f5d95501c68333df200c62103ac3e38efcc2d78eb69773a4d8eac77fa",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.0-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.0-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "9a9dfa17f3bf2bcc24017a1b4b984aefb70de73d54757534a47b56878347cc40a5be98f1ac70aae8bf936d8347ab778e1a6fe30eb4566904508f4d05c5934dfe",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.0-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.0-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "106729ed0724a003941fdc3a21528a1283988d800167c3c8877476242e72586168da24cae62c61a483b29755a5b5279ddb249e0c8ba7309fcd5d8a53f3345455",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.7",
+        "fileHash": "6f9f6d19ab3746e2146e67e868b3014264336803f7bf7899895193a65b6d1bff26bef32f5d95501c68333df200c62103ac3e38efcc2d78eb69773a4d8eac77fa",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.0-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.0-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "9a9dfa17f3bf2bcc24017a1b4b984aefb70de73d54757534a47b56878347cc40a5be98f1ac70aae8bf936d8347ab778e1a6fe30eb4566904508f4d05c5934dfe",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      }
+    ],
+    "CONDA_ENVIRONMENTS": {
+      "data": [
+        {
+          "name": "base",
+          "path": "/Users/yudhiesh/anaconda3"
+        },
+        {
+          "name": "chatbot",
+          "path": "/Users/yudhiesh/anaconda3/envs/chatbot"
+        },
+        {
+          "name": "env",
+          "path": "/Users/yudhiesh/anaconda3/envs/env"
+        },
+        {
+          "name": "opencv-env",
+          "path": "/Users/yudhiesh/anaconda3/envs/opencv-env"
+        }
+      ]
+    },
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3",
+        "fileHash": "3cc43c4c8b2e64eb1ddf508ce75dbd1691230bae842f58de2c3b8bf70c5d1075119621e1b723d269230ed8fa6cda3f236f201db12bead8c4190a8c1d6033a108",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/yudhiesh/anaconda3",
+        "envName": "base"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/envs/opencv-env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.10-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.10-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3/envs/opencv-env",
+        "fileHash": "8e1279d2bcb6f6e020901b28492ba201d3ba238e92cc00876e8bac884d9362a641f42ac53610f6b52b3573618b36833b192514be118785f246b6798988618e99",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/yudhiesh/anaconda3/envs/opencv-env",
+        "envName": "opencv-env"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/envs/chatbot/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.10-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.10-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3/envs/chatbot",
+        "fileHash": "74896f69bd73ee8ee1cc8773b4c385d94ed2c3ea3e3cd65b56e9bc1bcb30a148e0069736a89132cee4e2bad221c13e026e32a09d9bf85ef0633b365da3ca4b43",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/yudhiesh/anaconda3/envs/chatbot",
+        "envName": "chatbot"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/envs/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3/envs/env",
+        "fileHash": "2b6c9cfe4d6f31e3fed67368954c1b4ae67bcb2196800cd1811c717bf0425f7c6a033b48c848ba86fc7b013f518d744f84d35628f2a39cdf5ce85f2b468471c4",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/yudhiesh/anaconda3/envs/env",
+        "envName": "env"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3",
+        "fileHash": "3cc43c4c8b2e64eb1ddf508ce75dbd1691230bae842f58de2c3b8bf70c5d1075119621e1b723d269230ed8fa6cda3f236f201db12bead8c4190a8c1d6033a108",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/yudhiesh/anaconda3",
+        "envName": "base"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/envs/chatbot/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.10-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.10-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3/envs/chatbot",
+        "fileHash": "74896f69bd73ee8ee1cc8773b4c385d94ed2c3ea3e3cd65b56e9bc1bcb30a148e0069736a89132cee4e2bad221c13e026e32a09d9bf85ef0633b365da3ca4b43",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/yudhiesh/anaconda3/envs/chatbot",
+        "envName": "chatbot"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/envs/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3/envs/env",
+        "fileHash": "2b6c9cfe4d6f31e3fed67368954c1b4ae67bcb2196800cd1811c717bf0425f7c6a033b48c848ba86fc7b013f518d744f84d35628f2a39cdf5ce85f2b468471c4",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/yudhiesh/anaconda3/envs/env",
+        "envName": "env"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/envs/opencv-env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.10-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.10-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3/envs/opencv-env",
+        "fileHash": "8e1279d2bcb6f6e020901b28492ba201d3ba238e92cc00876e8bac884d9362a641f42ac53610f6b52b3573618b36833b192514be118785f246b6798988618e99",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/yudhiesh/anaconda3/envs/opencv-env",
+        "envName": "opencv-env"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3",
+        "fileHash": "3cc43c4c8b2e64eb1ddf508ce75dbd1691230bae842f58de2c3b8bf70c5d1075119621e1b723d269230ed8fa6cda3f236f201db12bead8c4190a8c1d6033a108",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/yudhiesh/anaconda3",
+        "envName": "base"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/Users/yudhiesh/anaconda3/envs/opencv-env/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.6.10 64-bit ('opencv-env': conda)",
+        "hash": "8e1279d2bcb6f6e020901b28492ba201d3ba238e92cc00876e8bac884d9362a641f42ac53610f6b52b3573618b36833b192514be118785f246b6798988618e99-2148d2309c2237e467702aebf05e82e3"
+      },
+      "expiry": 1611926197953
+    },
+    "/usr/local/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.0 64-bit",
+        "hash": "106729ed0724a003941fdc3a21528a1283988d800167c3c8877476242e72586168da24cae62c61a483b29755a5b5279ddb249e0c8ba7309fcd5d8a53f3345455-7439f1ec76ddc4c19becd91f18881870"
+      },
+      "expiry": 1611999741599
+    },
+    "/usr/local/bin/python3.7.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit",
+        "hash": "6f9f6d19ab3746e2146e67e868b3014264336803f7bf7899895193a65b6d1bff26bef32f5d95501c68333df200c62103ac3e38efcc2d78eb69773a4d8eac77fa-d62c8da0a9d42f724e71c75d76ea907f"
+      },
+      "expiry": 1611999741606
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-f5b651b9c4b75532b11ae83303c43d14"
+      },
+      "expiry": 1611999741623
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.2 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-b94ba3f7e631b2cac10e62bf95a60276"
+      },
+      "expiry": 1611999741626
+    },
+    "/Users/yudhiesh/anaconda3/envs/chatbot/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.6.10 64-bit ('chatbot': conda)",
+        "hash": "74896f69bd73ee8ee1cc8773b4c385d94ed2c3ea3e3cd65b56e9bc1bcb30a148e0069736a89132cee4e2bad221c13e026e32a09d9bf85ef0633b365da3ca4b43-c96a7f49da63951d8135f414a701e5e2"
+      },
+      "expiry": 1611926197948
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-a9fb100b1ab04c53a774363838d4885e"
+      },
+      "expiry": 1611999741630
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/Users/yudhiesh/.pyenv/shims/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+      "fileHash": "ca8e3959c998dc41e72a752b46762f814c48b91da6abacc700e43bf233a8ac4544604ddb0c237967b14125345ae87afe3ca0cca12a9bc7f4c3550320c1fc9323",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.8.5 64-bit"
+    },
+    "/Users/yudhiesh/anaconda3/envs/opencv-env/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "8e1279d2bcb6f6e020901b28492ba201d3ba238e92cc00876e8bac884d9362a641f42ac53610f6b52b3573618b36833b192514be118785f246b6798988618e99",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/yudhiesh/anaconda3/envs/opencv-env/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.6.10-final",
+            "major": 3,
+            "minor": 6,
+            "patch": 10,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.6.10-final"
+          },
+          "sysPrefix": "/Users/yudhiesh/anaconda3/envs/opencv-env",
+          "fileHash": "8e1279d2bcb6f6e020901b28492ba201d3ba238e92cc00876e8bac884d9362a641f42ac53610f6b52b3573618b36833b192514be118785f246b6798988618e99",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/yudhiesh/anaconda3/envs/opencv-env",
+          "envName": "opencv-env",
+          "displayName": "Python 3.6.10 64-bit ('opencv-env': conda)"
+        }
+      },
+      "expiry": 1611926197986
+    },
+    "/usr/local/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "106729ed0724a003941fdc3a21528a1283988d800167c3c8877476242e72586168da24cae62c61a483b29755a5b5279ddb249e0c8ba7309fcd5d8a53f3345455",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.0-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 0,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.0-final"
+          },
+          "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.8",
+          "fileHash": "106729ed0724a003941fdc3a21528a1283988d800167c3c8877476242e72586168da24cae62c61a483b29755a5b5279ddb249e0c8ba7309fcd5d8a53f3345455",
+          "type": "Unknown",
+          "displayName": "Python 3.8.0 64-bit"
+        }
+      },
+      "expiry": 1611999741757
+    },
+    "/usr/local/bin/python3.7.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "6f9f6d19ab3746e2146e67e868b3014264336803f7bf7899895193a65b6d1bff26bef32f5d95501c68333df200c62103ac3e38efcc2d78eb69773a4d8eac77fa",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/bin/python3.7",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.7",
+          "fileHash": "6f9f6d19ab3746e2146e67e868b3014264336803f7bf7899895193a65b6d1bff26bef32f5d95501c68333df200c62103ac3e38efcc2d78eb69773a4d8eac77fa",
+          "type": "Unknown",
+          "displayName": "Python 3.7.3 64-bit"
+        }
+      },
+      "expiry": 1611999741764
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1611999741772
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.2-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.2-final"
+          },
+          "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 3.8.2 64-bit"
+        }
+      },
+      "expiry": 1611999741779
+    },
+    "/Users/yudhiesh/anaconda3/envs/chatbot/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "74896f69bd73ee8ee1cc8773b4c385d94ed2c3ea3e3cd65b56e9bc1bcb30a148e0069736a89132cee4e2bad221c13e026e32a09d9bf85ef0633b365da3ca4b43",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/yudhiesh/anaconda3/envs/chatbot/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.6.10-final",
+            "major": 3,
+            "minor": 6,
+            "patch": 10,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.6.10-final"
+          },
+          "sysPrefix": "/Users/yudhiesh/anaconda3/envs/chatbot",
+          "fileHash": "74896f69bd73ee8ee1cc8773b4c385d94ed2c3ea3e3cd65b56e9bc1bcb30a148e0069736a89132cee4e2bad221c13e026e32a09d9bf85ef0633b365da3ca4b43",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/yudhiesh/anaconda3/envs/chatbot",
+          "envName": "chatbot",
+          "displayName": "Python 3.6.10 64-bit ('chatbot': conda)"
+        }
+      },
+      "expiry": 1611926197970
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1611999741787
+    },
+    "ProposeLSBanner": false,
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/Users/yudhiesh/.pyenv/shims/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+      "fileHash": "ca8e3959c998dc41e72a752b46762f814c48b91da6abacc700e43bf233a8ac4544604ddb0c237967b14125345ae87afe3ca0cca12a9bc7f4c3550320c1fc9323",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.8.5 64-bit"
+    },
+    "SelectedPythonPath": "/Users/yudhiesh/anaconda3/envs/opencv-env/bin/python",
+    "/Users/yudhiesh/anaconda3/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "17ad9a4b3e64f58498973e95dc72e5117cdd2d6cf3f7328748b9f72306e6adf0aa73af3d0b878856b89b8c43ccdb4a58c15c9d2c2c957f4f3a230ad2981313e7"
+      },
+      "expiry": 1611815764587
+    },
+    "/Users/yudhiesh/anaconda3/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit ('anaconda3': virtualenv)",
+        "hash": "17ad9a4b3e64f58498973e95dc72e5117cdd2d6cf3f7328748b9f72306e6adf0aa73af3d0b878856b89b8c43ccdb4a58c15c9d2c2c957f4f3a230ad2981313e7-3d027056321ae9970ab3d5b51db00fd5"
+      },
+      "expiry": 1611815764841
+    },
+    "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/sample_ranking/yudhiesh",
+        "fileHash": "da32cda577db7cfb00a1a63036df6b1d6ecc75a39dd21cc7cdff8816b2f0d1a972ad57fc1b3e25dc1f474e1222b8d3db74c5f26e6965ff8561d3c9b5ec0bc49a"
+      },
+      "expiry": 1608460144330
+    },
+    "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/sample_ranking/yudhiesh",
+        "fileHash": "d3f061dd27ff74916ba482714df51c39726b775f1c5e1b9fee1227f793aab8cd6d1995cc403a5bfc4e8f05fb561780699e758cd3a92287d5b83acf0b1b848e1d"
+      },
+      "expiry": 1608460144332
+    },
+    "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit ('yudhiesh': venv)",
+        "hash": "d3f061dd27ff74916ba482714df51c39726b775f1c5e1b9fee1227f793aab8cd6d1995cc403a5bfc4e8f05fb561780699e758cd3a92287d5b83acf0b1b848e1d-8cdad2a6e4830c194097a8efcb0bf7ee"
+      },
+      "expiry": 1608460144595
+    },
+    "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "d3f061dd27ff74916ba482714df51c39726b775f1c5e1b9fee1227f793aab8cd6d1995cc403a5bfc4e8f05fb561780699e758cd3a92287d5b83acf0b1b848e1d",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Users/yudhiesh/sample_ranking/yudhiesh",
+          "fileHash": "d3f061dd27ff74916ba482714df51c39726b775f1c5e1b9fee1227f793aab8cd6d1995cc403a5bfc4e8f05fb561780699e758cd3a92287d5b83acf0b1b848e1d",
+          "envName": "yudhiesh",
+          "type": "Venv",
+          "displayName": "Python 3.7.3 64-bit ('yudhiesh': venv)"
+        }
+      },
+      "expiry": 1608460144749
+    },
+    "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "da32cda577db7cfb00a1a63036df6b1d6ecc75a39dd21cc7cdff8816b2f0d1a972ad57fc1b3e25dc1f474e1222b8d3db74c5f26e6965ff8561d3c9b5ec0bc49a"
+      },
+      "expiry": 1608353447241
+    },
+    "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit ('yudhiesh': venv)",
+        "hash": "da32cda577db7cfb00a1a63036df6b1d6ecc75a39dd21cc7cdff8816b2f0d1a972ad57fc1b3e25dc1f474e1222b8d3db74c5f26e6965ff8561d3c9b5ec0bc49a-e29fbeb80bda5530c700453147427b4e"
+      },
+      "expiry": 1608353447418
+    },
+    "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/Chapter2/RL/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/Chapter2/RL/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/Chapter2/RL",
+        "fileHash": "36c359f14c54a37cc91068811190933ebc4a9d519ae714efe03e3294d87456fa5fe711b45b4e14484bf201d32b7aad0820716361f36333ff8a7f8fb144abeddd"
+      },
+      "expiry": 1609476036452
+    },
+    "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/Chapter2/RL/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/Chapter2/RL/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/Chapter2/RL",
+        "fileHash": "ddac046763296d2d5ae931f9cb139aad25a15d100004404c2d6fa9f2c85a9bbe9f23fe732b13173a14801728923611dc525a191fadce037b4461e041558b3cdf"
+      },
+      "expiry": 1609476036454
+    },
+    "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/Chapter2/RL/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "36c359f14c54a37cc91068811190933ebc4a9d519ae714efe03e3294d87456fa5fe711b45b4e14484bf201d32b7aad0820716361f36333ff8a7f8fb144abeddd"
+      },
+      "expiry": 1609476036869
+    },
+    "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/Chapter2/RL/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit",
+        "hash": "ddac046763296d2d5ae931f9cb139aad25a15d100004404c2d6fa9f2c85a9bbe9f23fe732b13173a14801728923611dc525a191fadce037b4461e041558b3cdf-a683120e697fb8a233b534f820d90a49"
+      },
+      "expiry": 1609476036913
+    },
+    "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/Chapter2/RL/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ddac046763296d2d5ae931f9cb139aad25a15d100004404c2d6fa9f2c85a9bbe9f23fe732b13173a14801728923611dc525a191fadce037b4461e041558b3cdf",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/Chapter2/RL/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/Chapter2/RL",
+          "fileHash": "ddac046763296d2d5ae931f9cb139aad25a15d100004404c2d6fa9f2c85a9bbe9f23fe732b13173a14801728923611dc525a191fadce037b4461e041558b3cdf",
+          "type": "Unknown",
+          "displayName": "Python 3.7.3 64-bit"
+        }
+      },
+      "expiry": 1609476036941
+    },
+    "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/Chapter2/RL/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit ('RL': venv)",
+        "hash": "36c359f14c54a37cc91068811190933ebc4a9d519ae714efe03e3294d87456fa5fe711b45b4e14484bf201d32b7aad0820716361f36333ff8a7f8fb144abeddd-df231451e1c201acd1346957c1e8778f"
+      },
+      "expiry": 1609476036993
+    },
+    "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/env/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/env",
+        "fileHash": "d595b7b2976bc0fdd2f7b8184aeaf8a09cd6b5906423a86b2ac0a65b6b1fb82e5ee733c6019b70413ab06f877493d25631e91e4e29b19c8a85caebb51a27bf78"
+      },
+      "expiry": 1609953276388
+    },
+    "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/env/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/env",
+        "fileHash": "cc98048a43d209f2305a4099009f7162a24f7831057386365bd602048a3f3397766f700a8d61a12e34799ad1d303df9a68e67e1f9856ae94fb66c4c1a3f0aae9"
+      },
+      "expiry": 1609953276390
+    },
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/Users/yudhiesh/.pyenv/versions/venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/Users/yudhiesh/.pyenv/versions/venv",
+      "fileHash": "91ccb2f708573649907dfe0f734cc22af88b66502a2693325d530a8420b255f02bf3909d27ae9eb60b2fb49770e5baf73882f2decee2b00a98f5aad7570a625c",
+      "type": "Unknown",
+      "cachedEntry": true
+    },
+    "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/env/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit ('env': venv)",
+        "hash": "cc98048a43d209f2305a4099009f7162a24f7831057386365bd602048a3f3397766f700a8d61a12e34799ad1d303df9a68e67e1f9856ae94fb66c4c1a3f0aae9-a211545f3dde8d9f5b889c4a68c762a7"
+      },
+      "expiry": 1609953276815
+    },
+    "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/env/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "cc98048a43d209f2305a4099009f7162a24f7831057386365bd602048a3f3397766f700a8d61a12e34799ad1d303df9a68e67e1f9856ae94fb66c4c1a3f0aae9",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/env/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/env",
+          "fileHash": "cc98048a43d209f2305a4099009f7162a24f7831057386365bd602048a3f3397766f700a8d61a12e34799ad1d303df9a68e67e1f9856ae94fb66c4c1a3f0aae9",
+          "envName": "env",
+          "type": "Venv",
+          "displayName": "Python 3.7.3 64-bit ('env': venv)"
+        }
+      },
+      "expiry": 1609953276876
+    },
+    "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/env/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "d595b7b2976bc0fdd2f7b8184aeaf8a09cd6b5906423a86b2ac0a65b6b1fb82e5ee733c6019b70413ab06f877493d25631e91e4e29b19c8a85caebb51a27bf78"
+      },
+      "expiry": 1609868046290
+    },
+    "/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On/env/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit ('env': venv)",
+        "hash": "d595b7b2976bc0fdd2f7b8184aeaf8a09cd6b5906423a86b2ac0a65b6b1fb82e5ee733c6019b70413ab06f877493d25631e91e4e29b19c8a85caebb51a27bf78-29fcc4e0fa82664e71303c25a6385916"
+      },
+      "expiry": 1609868046422
+    },
+    "/Users/yudhiesh/anaconda3/envs/env/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/envs/env/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3/envs/env",
+        "fileHash": "13a4859a4bd3959693d2f6f8cbd62aed277315a6ba38f59a00de439c2972952272c61ca5e2ef0dea42cee8b98ff87b454f627a7228fd89ecd440c75115cab2ee"
+      },
+      "expiry": 1611925718579
+    },
+    "/Users/yudhiesh/anaconda3/envs/env/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/envs/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3/envs/env",
+        "fileHash": "ac9c4c51f65ec3c9bac20fafab54dae435f7d5c686296380b6d29661f26c1f5823ac503b92efa38930a68021835dff5e4e0ccbd132d01aa903386b89f807c4a7"
+      },
+      "expiry": 1611925718582
+    },
+    "/Users/yudhiesh/anaconda3/envs/env/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/anaconda3/envs/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/anaconda3/envs/env",
+        "fileHash": "2b6c9cfe4d6f31e3fed67368954c1b4ae67bcb2196800cd1811c717bf0425f7c6a033b48c848ba86fc7b013f518d744f84d35628f2a39cdf5ce85f2b468471c4"
+      },
+      "expiry": 1611999727234
+    },
+    "/Users/yudhiesh/anaconda3/envs/env/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit ('env': conda)",
+        "hash": "2b6c9cfe4d6f31e3fed67368954c1b4ae67bcb2196800cd1811c717bf0425f7c6a033b48c848ba86fc7b013f518d744f84d35628f2a39cdf5ce85f2b468471c4-e68d7e462eacffa5127534ac04f1cded"
+      },
+      "expiry": 1611926197951
+    },
+    "/Users/yudhiesh/anaconda3/envs/env/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "2b6c9cfe4d6f31e3fed67368954c1b4ae67bcb2196800cd1811c717bf0425f7c6a033b48c848ba86fc7b013f518d744f84d35628f2a39cdf5ce85f2b468471c4",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/yudhiesh/anaconda3/envs/env/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/Users/yudhiesh/anaconda3/envs/env",
+          "fileHash": "2b6c9cfe4d6f31e3fed67368954c1b4ae67bcb2196800cd1811c717bf0425f7c6a033b48c848ba86fc7b013f518d744f84d35628f2a39cdf5ce85f2b468471c4",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/yudhiesh/anaconda3/envs/env",
+          "envName": "env",
+          "displayName": "Python 3.8.5 64-bit ('env': conda)"
+        }
+      },
+      "expiry": 1611926197979
+    },
+    "/Users/yudhiesh/anaconda3/envs/env/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ac9c4c51f65ec3c9bac20fafab54dae435f7d5c686296380b6d29661f26c1f5823ac503b92efa38930a68021835dff5e4e0ccbd132d01aa903386b89f807c4a7"
+      },
+      "expiry": 1611838159482
+    },
+    "/Users/yudhiesh/anaconda3/envs/env/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit",
+        "hash": "ac9c4c51f65ec3c9bac20fafab54dae435f7d5c686296380b6d29661f26c1f5823ac503b92efa38930a68021835dff5e4e0ccbd132d01aa903386b89f807c4a7-4635f8dfa4c580db8162fe9502d6c8b9"
+      },
+      "expiry": 1611838159878
+    },
+    "/Users/yudhiesh/venvs/pylint/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/pylint/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/pylint",
+        "fileHash": "a71d1c7b01c035669ee85457bae20debeae3c92a66ba302d382e6bf2afa26e2234d6d5cc4a9bb839e8023384520ae7f3ce236fe79e94797512ca5e5d97d64513"
+      },
+      "expiry": 1611925719226
+    },
+    "/Users/yudhiesh/venvs/pylint/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/pylint/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/pylint",
+        "fileHash": "7d95cd7edacafe3f87644a5ff50763ef2c1991cc7f519ccec4c6f13a8e7f56a865a70a232296c08b906c104c383195400709e3f5bc2cc763dfbb2a685de84360"
+      },
+      "expiry": 1611925719229
+    },
+    "/Users/yudhiesh/.pyenv/versions/venv/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/versions/venv/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/venv",
+        "fileHash": "536a9d1820753710aa8e714b5ffcf30d1f8e822a95fa7e7d48dd8ddc3d0d7f62e2538300d932522fc13d0cab4691d6fdfa2931d06076726337a328d8c9239a8e"
+      },
+      "expiry": 1611925719192
+    },
+    "/Users/yudhiesh/.pyenv/versions/venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/versions/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/venv",
+        "fileHash": "91ccb2f708573649907dfe0f734cc22af88b66502a2693325d530a8420b255f02bf3909d27ae9eb60b2fb49770e5baf73882f2decee2b00a98f5aad7570a625c"
+      },
+      "expiry": 1611925719199
+    },
+    "/Users/yudhiesh/.pyenv/versions/venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/versions/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/venv",
+        "fileHash": "5fcfbc595012c8dbd20ff4b3c1d83dacc86deb0fb94618691b302513e4131fd968a4ca5e9c5d3f8535fa8f3a21e90b0d8d5d2e08ac9f9dc5a636143ae7779611"
+      },
+      "expiry": 1611925719201
+    },
+    "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+        "fileHash": "aa732298f2026f84c8cb1ca9fb37569a5c6670f31322942c133b427770a77a47423d6593813ebc86de9d2e288a0c17027694623ee46e81ac98701e50569816a4"
+      },
+      "expiry": 1611925719211
+    },
+    "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+        "fileHash": "b0fcfdf77281a3b30e61d5a795530bfc6f97cec822a7dc14653e589fe6388fd5da37a8d37cf0ae5313863d0a00ecbe339c0dca5e3c0844d0e52a1301469b3f35"
+      },
+      "expiry": 1611925719213
+    },
+    "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+        "fileHash": "e5d8ac1a93d80ff986a846bcf5d08d89ea0bcc74ccaed483cc854e52286d859543b6ebb1d92f4090dd9de74190defc3a2843735d71eb43d4a92c6fe589c2a535"
+      },
+      "expiry": 1611925719215
+    },
+    "/Users/yudhiesh/venvs/neovim/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/neovim/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/neovim",
+        "fileHash": "f17c28da3bc1d13607ea1f5d49052f9a89ca2cbbdbdeccc148bca09184444b86adcb9a7dff6f21614bc3f192a09c9b0cd2459a94a565bdcb2426b2fc60f4ba2c"
+      },
+      "expiry": 1611925719990
+    },
+    "/Users/yudhiesh/venvs/neovim/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/neovim/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/neovim",
+        "fileHash": "0a28e8322fa9a27edb559011b9d89c710eeba599c914c384756048df73983cd59b3f6b00d56f9d013faf2fca826955904f1771706b4a38cb412e287a7a956b09"
+      },
+      "expiry": 1611925719993
+    },
+    "/Users/yudhiesh/venvs/jedi/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/jedi/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/jedi",
+        "fileHash": "66f583ae00464f9dc8e26f7e52d65726777f39421e6b74dd6f02de15ae2446ccf40acb7fe761689db435c4e5d7cafd1b6dd1df72ffc487f04d1b21d3bbc55c81"
+      },
+      "expiry": 1611925719998
+    },
+    "/Users/yudhiesh/venvs/jedi/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/jedi/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/jedi",
+        "fileHash": "ae5c5b7463d7cc55358b95427c921739816dec1924e4416ca8423b52836b0876731dfff5c7252c70fa8691f4a689c59b66f9048177f9f7144367c77424035c87"
+      },
+      "expiry": 1611925720000
+    },
+    "/Users/yudhiesh/venvs/black/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/black/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/black",
+        "fileHash": "bb1f6de96bd4d89c9758f2eecda8a2a61c2dac3022a998a6813849a36c746919333403dcbac3b6b7ed71e7f6a93bf1e496a8772c575a9a579484812b0d47f1c3"
+      },
+      "expiry": 1611925720003
+    },
+    "/Users/yudhiesh/venvs/black/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/venvs/black/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/venvs/black",
+        "fileHash": "e7ccf75c97ad5df862fdc2c8d21a3d3a558f0aac410b6b022343766e44d85adcec1e23129dc311403622624507bba3555ba4429dab34c2c3ad204b68711ee14c"
+      },
+      "expiry": 1611925720008
+    },
+    "/Users/yudhiesh/.pyenv/shims/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/shims/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+        "fileHash": "26b5a458581d506924147e3648075777c01f07061c8469f891c825823502bc526514b186397ff59eab3f145ad862269dacfdc1e00479a9264c56bfb1a39a7a34"
+      },
+      "expiry": 1611925719420
+    },
+    "/Users/yudhiesh/.pyenv/shims/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/shims/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+        "fileHash": "b8f6f117bd993823496f0d64e2e87cadbbb7c3406ae509c53178252c6827fc196093cf68ba502d34564a7a33e5ceabb1e30c6cffa8e5d118849a6a366b1a228c"
+      },
+      "expiry": 1611925719426
+    },
+    "/Users/yudhiesh/.pyenv/shims/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/.pyenv/shims/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+        "fileHash": "ca8e3959c998dc41e72a752b46762f814c48b91da6abacc700e43bf233a8ac4544604ddb0c237967b14125345ae87afe3ca0cca12a9bc7f4c3550320c1fc9323"
+      },
+      "expiry": 1611925719435
+    },
+    "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit ('3.8.5': pyenv)",
+        "hash": "e5d8ac1a93d80ff986a846bcf5d08d89ea0bcc74ccaed483cc854e52286d859543b6ebb1d92f4090dd9de74190defc3a2843735d71eb43d4a92c6fe589c2a535-03cdf544875537538f60ebe9a5e5e845"
+      },
+      "expiry": 1611925720601
+    },
+    "/Users/yudhiesh/.pyenv/versions/venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit ('venv': venv)",
+        "hash": "5fcfbc595012c8dbd20ff4b3c1d83dacc86deb0fb94618691b302513e4131fd968a4ca5e9c5d3f8535fa8f3a21e90b0d8d5d2e08ac9f9dc5a636143ae7779611-0a5dceb00b1555b1604dc87dd054d9a6"
+      },
+      "expiry": 1611925720606
+    },
+    "/Users/yudhiesh/.pyenv/shims/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit",
+        "hash": "ca8e3959c998dc41e72a752b46762f814c48b91da6abacc700e43bf233a8ac4544604ddb0c237967b14125345ae87afe3ca0cca12a9bc7f4c3550320c1fc9323-12d942dae86b9812d7e9bf93666f16d7"
+      },
+      "expiry": 1611925720623
+    },
+    "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "e5d8ac1a93d80ff986a846bcf5d08d89ea0bcc74ccaed483cc854e52286d859543b6ebb1d92f4090dd9de74190defc3a2843735d71eb43d4a92c6fe589c2a535",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+          "fileHash": "e5d8ac1a93d80ff986a846bcf5d08d89ea0bcc74ccaed483cc854e52286d859543b6ebb1d92f4090dd9de74190defc3a2843735d71eb43d4a92c6fe589c2a535",
+          "envName": "3.8.5",
+          "type": "Pyenv",
+          "displayName": "Python 3.8.5 64-bit ('3.8.5': pyenv)"
+        }
+      },
+      "expiry": 1611925721081
+    },
+    "/Users/yudhiesh/.pyenv/versions/venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "5fcfbc595012c8dbd20ff4b3c1d83dacc86deb0fb94618691b302513e4131fd968a4ca5e9c5d3f8535fa8f3a21e90b0d8d5d2e08ac9f9dc5a636143ae7779611",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/yudhiesh/.pyenv/versions/venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/Users/yudhiesh/.pyenv/versions/venv",
+          "fileHash": "5fcfbc595012c8dbd20ff4b3c1d83dacc86deb0fb94618691b302513e4131fd968a4ca5e9c5d3f8535fa8f3a21e90b0d8d5d2e08ac9f9dc5a636143ae7779611",
+          "envName": "venv",
+          "type": "Venv",
+          "displayName": "Python 3.8.5 64-bit ('venv': venv)"
+        }
+      },
+      "expiry": 1611925721091
+    },
+    "/Users/yudhiesh/.pyenv/shims/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ca8e3959c998dc41e72a752b46762f814c48b91da6abacc700e43bf233a8ac4544604ddb0c237967b14125345ae87afe3ca0cca12a9bc7f4c3550320c1fc9323",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/yudhiesh/.pyenv/shims/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/Users/yudhiesh/.pyenv/versions/3.8.5",
+          "fileHash": "ca8e3959c998dc41e72a752b46762f814c48b91da6abacc700e43bf233a8ac4544604ddb0c237967b14125345ae87afe3ca0cca12a9bc7f4c3550320c1fc9323",
+          "type": "Unknown",
+          "displayName": "Python 3.8.5 64-bit"
+        }
+      },
+      "expiry": 1611925721106
+    },
+    "/Users/yudhiesh/venvs/pylint/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit",
+        "hash": "7d95cd7edacafe3f87644a5ff50763ef2c1991cc7f519ccec4c6f13a8e7f56a865a70a232296c08b906c104c383195400709e3f5bc2cc763dfbb2a685de84360-eb7f2956998e2ad363bef8c47a42aa25"
+      },
+      "expiry": 1611925721989
+    },
+    "/Users/yudhiesh/venvs/pylint/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "7d95cd7edacafe3f87644a5ff50763ef2c1991cc7f519ccec4c6f13a8e7f56a865a70a232296c08b906c104c383195400709e3f5bc2cc763dfbb2a685de84360",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/yudhiesh/venvs/pylint/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Users/yudhiesh/venvs/pylint",
+          "fileHash": "7d95cd7edacafe3f87644a5ff50763ef2c1991cc7f519ccec4c6f13a8e7f56a865a70a232296c08b906c104c383195400709e3f5bc2cc763dfbb2a685de84360",
+          "type": "Unknown",
+          "displayName": "Python 3.7.3 64-bit"
+        }
+      },
+      "expiry": 1611925722080
+    },
+    "/Users/yudhiesh/venvs/pylint/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "a71d1c7b01c035669ee85457bae20debeae3c92a66ba302d382e6bf2afa26e2234d6d5cc4a9bb839e8023384520ae7f3ce236fe79e94797512ca5e5d97d64513"
+      },
+      "expiry": 1611926183470
+    },
+    "/Users/yudhiesh/venvs/pylint/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit ('pylint': venv)",
+        "hash": "a71d1c7b01c035669ee85457bae20debeae3c92a66ba302d382e6bf2afa26e2234d6d5cc4a9bb839e8023384520ae7f3ce236fe79e94797512ca5e5d97d64513-691914912983cffc2fad0a17ea218683"
+      },
+      "expiry": 1611926184117
+    },
+    "/Users/yudhiesh/.pyenv/versions/venv/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "91ccb2f708573649907dfe0f734cc22af88b66502a2693325d530a8420b255f02bf3909d27ae9eb60b2fb49770e5baf73882f2decee2b00a98f5aad7570a625c"
+      },
+      "expiry": 1611926957982
+    },
+    "/Users/yudhiesh/.pyenv/versions/venv/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit ('venv': venv)",
+        "hash": "91ccb2f708573649907dfe0f734cc22af88b66502a2693325d530a8420b255f02bf3909d27ae9eb60b2fb49770e5baf73882f2decee2b00a98f5aad7570a625c-b2ebafda63a04e8c745a1a3c789bc25f"
+      },
+      "expiry": 1611926958441
+    },
+    "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "b0fcfdf77281a3b30e61d5a795530bfc6f97cec822a7dc14653e589fe6388fd5da37a8d37cf0ae5313863d0a00ecbe339c0dca5e3c0844d0e52a1301469b3f35"
+      },
+      "expiry": 1611928712845
+    },
+    "/Users/yudhiesh/.pyenv/versions/3.8.5/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit ('3.8.5': pyenv)",
+        "hash": "b0fcfdf77281a3b30e61d5a795530bfc6f97cec822a7dc14653e589fe6388fd5da37a8d37cf0ae5313863d0a00ecbe339c0dca5e3c0844d0e52a1301469b3f35-0d7e0623214f3897facb0d75c1dcdf12"
+      },
+      "expiry": 1611928713170
+    }
+  },
+  "coc-python|/Users/yudhiesh/Driver_Drowsiness_Detection": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:20db1675d14c94055c2be15af5304620": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:20db1675d14c94055c2be15af5304620": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/Driver_Drowsiness_Detection": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.0-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 0,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.0-final"
+      },
+      "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.8",
+      "fileHash": "106729ed0724a003941fdc3a21528a1283988d800167c3c8877476242e72586168da24cae62c61a483b29755a5b5279ddb249e0c8ba7309fcd5d8a53f3345455",
+      "type": "Unknown",
+      "displayName": "Python 3.8.0 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/yudhiesh/ml-model": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:ddcca4458d8432a20a1cd0ad5e90f5ef": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:ddcca4458d8432a20a1cd0ad5e90f5ef": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/ml-model": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.0-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 0,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.0-final"
+      },
+      "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.8",
+      "fileHash": "106729ed0724a003941fdc3a21528a1283988d800167c3c8877476242e72586168da24cae62c61a483b29755a5b5279ddb249e0c8ba7309fcd5d8a53f3345455",
+      "type": "Unknown",
+      "displayName": "Python 3.8.0 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/yudhiesh/Approaching-Almost-Any-Machine-Learning-Problem": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:d20cd7b286f35d225df268665df60a09": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:d20cd7b286f35d225df268665df60a09": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/Approaching-Almost-Any-Machine-Learning-Problem": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.0-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 0,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.0-final"
+      },
+      "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.8",
+      "fileHash": "106729ed0724a003941fdc3a21528a1283988d800167c3c8877476242e72586168da24cae62c61a483b29755a5b5279ddb249e0c8ba7309fcd5d8a53f3345455",
+      "type": "Unknown",
+      "displayName": "Python 3.8.0 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-rust-analyzer|global": {
+    "release": "2020-12-21"
+  },
+  "coc-python|/Users/yudhiesh/Desktop/cities4forests/cities4forests/spiders": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:0c9f359b36f501f5ee2cb4171648f3b0": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:0c9f359b36f501f5ee2cb4171648f3b0": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/Desktop/cities4forests/cities4forests/spiders": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+      "fileHash": "e8c8d13d15fae333ddc37af43d661727f703f57c646bd1ca2d932a7d199b7da23120e60a2963ef19dd37047d08f7db13d75cdbcb6a55fd8b429b609bec60b9a1",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.8.2 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/yudhiesh/afr100": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:6dcaf45d99df028243241a47d5b8ef4b": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:6dcaf45d99df028243241a47d5b8ef4b": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/afr100": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+      "fileHash": "e8c8d13d15fae333ddc37af43d661727f703f57c646bd1ca2d932a7d199b7da23120e60a2963ef19dd37047d08f7db13d75cdbcb6a55fd8b429b609bec60b9a1",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.8.2 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/yudhiesh/Yudhiesh": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:35a31d18fcd582bed61081adc2ad58da": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:35a31d18fcd582bed61081adc2ad58da": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/Yudhiesh": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+      "fileHash": "e8c8d13d15fae333ddc37af43d661727f703f57c646bd1ca2d932a7d199b7da23120e60a2963ef19dd37047d08f7db13d75cdbcb6a55fd8b429b609bec60b9a1",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.8.2 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/yudhiesh/ruuvitag": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:16117bdb7f3fffaa4303ff35707b3aa6": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:16117bdb7f3fffaa4303ff35707b3aa6": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/ruuvitag": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+      "fileHash": "e8c8d13d15fae333ddc37af43d661727f703f57c646bd1ca2d932a7d199b7da23120e60a2963ef19dd37047d08f7db13d75cdbcb6a55fd8b429b609bec60b9a1",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.8.2 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/yudhiesh/hello": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:2ee54bbaf5254ac7c553beb74c585e23": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:2ee54bbaf5254ac7c553beb74c585e23": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/hello": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+      "fileHash": "e8c8d13d15fae333ddc37af43d661727f703f57c646bd1ca2d932a7d199b7da23120e60a2963ef19dd37047d08f7db13d75cdbcb6a55fd8b429b609bec60b9a1",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.8.2 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/yudhiesh/workshop-eventDrivenMicroservices": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:d4d692399deb2bced476f08e5b468224": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:d4d692399deb2bced476f08e5b468224": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/workshop-eventDrivenMicroservices": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+      "fileHash": "e8c8d13d15fae333ddc37af43d661727f703f57c646bd1ca2d932a7d199b7da23120e60a2963ef19dd37047d08f7db13d75cdbcb6a55fd8b429b609bec60b9a1",
+      "type": "Unknown",
+      "displayName": "Python 3.8.2 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/usr/bin/python"
+  },
+  "coc-python|/Users/yudhiesh/Downloads/python-rake-1.0.7/RAKE": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:e361ab7b54d3f23c7dbdba3ebf63f0f5": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:e361ab7b54d3f23c7dbdba3ebf63f0f5": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/Downloads/python-rake-1.0.7/RAKE": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+      "fileHash": "e8c8d13d15fae333ddc37af43d661727f703f57c646bd1ca2d932a7d199b7da23120e60a2963ef19dd37047d08f7db13d75cdbcb6a55fd8b429b609bec60b9a1",
+      "type": "Unknown",
+      "displayName": "Python 3.8.2 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/yudhiesh/RAKE": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:01424d45ca66b5e72abcb11b8e1daaa0": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:01424d45ca66b5e72abcb11b8e1daaa0": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/RAKE": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+      "fileHash": "e8c8d13d15fae333ddc37af43d661727f703f57c646bd1ca2d932a7d199b7da23120e60a2963ef19dd37047d08f7db13d75cdbcb6a55fd8b429b609bec60b9a1",
+      "type": "Unknown",
+      "displayName": "Python 3.8.2 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/yudhiesh/RAKE-tutorial": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:1ce773ca81ededc0700b0094418df8e0": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:1ce773ca81ededc0700b0094418df8e0": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/RAKE-tutorial": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+      "fileHash": "e8c8d13d15fae333ddc37af43d661727f703f57c646bd1ca2d932a7d199b7da23120e60a2963ef19dd37047d08f7db13d75cdbcb6a55fd8b429b609bec60b9a1",
+      "type": "Unknown",
+      "displayName": "Python 3.8.2 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/yudhiesh/advent_of_code": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:d50937c51d9b30db7ec1b4635850f7aa": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:d50937c51d9b30db7ec1b4635850f7aa": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/advent_of_code": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+      "fileHash": "e8c8d13d15fae333ddc37af43d661727f703f57c646bd1ca2d932a7d199b7da23120e60a2963ef19dd37047d08f7db13d75cdbcb6a55fd8b429b609bec60b9a1",
+      "type": "Unknown",
+      "displayName": "Python 3.8.2 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:adfe1065f47ae6f75e7b0e2ad40aba00": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:adfe1065f47ae6f75e7b0e2ad40aba00": []
+  },
+  "coc-python|/Users/yudhiesh/sample_ranking": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:513608bfbfc3bca52d2041dedfd35341": [],
+    "SelectedPythonPath": "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python3",
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:513608bfbfc3bca52d2041dedfd35341": [
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/sample_ranking/yudhiesh",
+        "fileHash": "d3f061dd27ff74916ba482714df51c39726b775f1c5e1b9fee1227f793aab8cd6d1995cc403a5bfc4e8f05fb561780699e758cd3a92287d5b83acf0b1b848e1d",
+        "envName": "yudhiesh",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/sample_ranking/yudhiesh",
+        "fileHash": "da32cda577db7cfb00a1a63036df6b1d6ecc75a39dd21cc7cdff8816b2f0d1a972ad57fc1b3e25dc1f474e1222b8d3db74c5f26e6965ff8561d3c9b5ec0bc49a",
+        "envName": "yudhiesh",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/sample_ranking": {
+      "architecture": 3,
+      "path": "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.3-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.3-final"
+      },
+      "sysPrefix": "/Users/yudhiesh/sample_ranking/yudhiesh",
+      "fileHash": "da32cda577db7cfb00a1a63036df6b1d6ecc75a39dd21cc7cdff8816b2f0d1a972ad57fc1b3e25dc1f474e1222b8d3db74c5f26e6965ff8561d3c9b5ec0bc49a",
+      "envName": "yudhiesh",
+      "type": "Venv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/sample_ranking/yudhiesh",
+        "fileHash": "d3f061dd27ff74916ba482714df51c39726b775f1c5e1b9fee1227f793aab8cd6d1995cc403a5bfc4e8f05fb561780699e758cd3a92287d5b83acf0b1b848e1d",
+        "envName": "yudhiesh",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/yudhiesh/sample_ranking/yudhiesh/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/yudhiesh/sample_ranking/yudhiesh",
+        "fileHash": "da32cda577db7cfb00a1a63036df6b1d6ecc75a39dd21cc7cdff8816b2f0d1a972ad57fc1b3e25dc1f474e1222b8d3db74c5f26e6965ff8561d3c9b5ec0bc49a",
+        "envName": "yudhiesh",
+        "type": "Venv"
+      }
+    ]
+  },
+  "coc-python|/Users/yudhiesh/Deep-Reinforcement-Learning-Hands-On": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:eefc3a3fc1cf8893d2b83244b3cb8b75": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:eefc3a3fc1cf8893d2b83244b3cb8b75": [],
+    "SelectedPythonPath": "/usr/local/bin/python3.7",
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:adfe1065f47ae6f75e7b0e2ad40aba00": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:adfe1065f47ae6f75e7b0e2ad40aba00": []
+  },
+  "coc-python|/Users/yudhiesh/PyTorchTensor": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:0733e9493e99c34bbbd9d3001e6fdba0": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:0733e9493e99c34bbbd9d3001e6fdba0": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/yudhiesh/.vim": {
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:adfe1065f47ae6f75e7b0e2ad40aba00": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:adfe1065f47ae6f75e7b0e2ad40aba00": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:0733e9493e99c34bbbd9d3001e6fdba0": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:0733e9493e99c34bbbd9d3001e6fdba0": []
+  },
+  "coc-python|/Users/yudhiesh/Effective-Python/PytonicThinking": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:ef8b42e97b16f1c14d006c4dee9db956": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:ef8b42e97b16f1c14d006c4dee9db956": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/yudhiesh/Effective-Python/List_and_Dictionaries": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:0fabc33f24bea9e7ee3ff8cfa43d7fd5": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:0fabc33f24bea9e7ee3ff8cfa43d7fd5": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/yudhiesh/BLI_Data": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:41acb1283e88add6951e161a1e28fcd3": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:41acb1283e88add6951e161a1e28fcd3": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/yudhiesh/BLI": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:5d6eafea8482884c39a359e89f772b50": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:5d6eafea8482884c39a359e89f772b50": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/yudhiesh/BLI": {
+      "architecture": 3,
+      "path": "/Users/yudhiesh/anaconda3/envs/env/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/Users/yudhiesh/anaconda3/envs/env",
+      "fileHash": "2b6c9cfe4d6f31e3fed67368954c1b4ae67bcb2196800cd1811c717bf0425f7c6a033b48c848ba86fc7b013f518d744f84d35628f2a39cdf5ce85f2b468471c4",
+      "type": "Unknown",
+      "displayName": "Python 3.8.5 64-bit"
+    }
+  }
+}

@@ -1,40 +1,67 @@
+({
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python",
+    "java",
+    "cpp",
+    "rs",
+    "go"
+  ],
+  "coc.preferences.formatOnType": true,
+  "python.pythonPath": "python3",
+  "python.venvPath": "/Users/yudhiesh/.pyenv/versions/3.7.9/envs/venv3.7/", // jedi
+  "python.jediEnabled": true,
+  "python.jediPath": "/Users/yudhiesh/.pyenv/versions/3.7.9/envs/venv3.7/lib/python3.7/site-packages",
+  "suggest.timeout": 2000, //formatting
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "~/venvs/black/bin/black", //linting
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "~/venvs/pylint/bin/pylint",
+  "eslint.autoFixOnSave": true,
+  "tsserver.log": "verbose",
+  "tsserver.formatOnType": true,
+  "eslint.filetypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact"
+  ],
+  "eslint.options": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "prettier.disableSuccessMessage": true,
+  "clangd.path": "/Users/yudhiesh/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
+  "diagnostic.virtualText": false,
+  "diagnostic.joinMessageLines": true,
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.messageTarget": "float",
+  "diagnostic.level": "information",
+  "suggest.autoTrigger": "none",
+  "signature.enable": false,
+  "coc.preferences.snippets.enable": false,
+  "rust-analyzer.diagnostics.enable": false,
+  "rust-analyzer.serverPath": "~/.cargo/bin/rust-analyzer",
+  "metals.javaHome": "/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home",
+  "tsserver.npm": "/usr/local/bin/npm"
+},
 {
-    "coc.preferences.formatOnSaveFiletypes": [
-        "css",
-        "markdown",
-        "javascript",
-        "typescript",
-        "typescriptreact",
-        "javascriptreact",
-        "graphql",
-        "html",
-        "yaml",
-        "json",
-        "python",
-        "java",
-        "cpp"
-    ],
-    "coc.preferences.formatOnType": true,
-    "python.pythonPath": "python3",
-    "python.jediEnabled": false,
-    "python.jediPath": "/Users/yudhiesh/anaconda3/lib/python3.7/site-packages",
-    "python.linting.enabled": false,
-    "python.linting.pylintEnabled": false,
-    "python.formatting.provider": "black",
-    "eslint.autoFixOnSave": true,
-    "tsserver.formatOnType": true,
-    "eslint.filetypes": [
-        "javascript",
-        "typescript",
-        "typescriptreact",
-        "javascriptreact"
-    ],
-    "eslint.options": {
-        "env": {
-            "browser": true,
-            "node": true
-        }
-    },
-    "prettier.disableSuccessMessage": true,
-    "clangd.path": "/Users/yudhiesh/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd"
-}
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    }
+  }
+})

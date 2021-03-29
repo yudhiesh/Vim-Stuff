@@ -1,0 +1,41 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python",
+    "java",
+    "cpp",
+    "rs"
+  ],
+  "coc.preferences.formatOnType": true,
+  "python.pythonPath": "python3",
+  "python.jediEnabled": true,
+  "python.jediPath": "/Users/yudhiesh/.pyenv",
+  "python.linting.enabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.formatting.provider": "black",
+  "eslint.autoFixOnSave": true,
+  "tsserver.formatOnType": true,
+  "eslint.filetypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact"
+  ],
+  "eslint.options": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "prettier.disableSuccessMessage": true,
+  "clangd.path": "/Users/yudhiesh/.confi/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd"
+}

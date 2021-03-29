@@ -1,0 +1,7 @@
+2020-10-24 23:55:28,546 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2020-10-24 23:55:28,550 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'configurations']
+2020-10-24 23:55:28,557 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'configurations', 'describe']
+2020-10-24 23:55:28,561 DEBUG    root            Running [gcloud.config.configurations.describe] with arguments: [--format: "value[separator=""](properties.core.account,properties.core.project)", CONFIGURATION_NAME: "default"]
+2020-10-24 23:55:28,565 INFO     root            Display format: "default value[separator=""](properties.core.account,properties.core.project)"
+2020-10-24 23:55:28,566 INFO     ___FILE_ONLY___ yudhiesh@driverdrowsiness.iam.gserviceaccount.comdriverdrowsiness
+

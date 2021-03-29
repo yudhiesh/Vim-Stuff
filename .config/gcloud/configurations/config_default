@@ -1,0 +1,5 @@
+[core]
+account = yudhiesh@driverdrowsiness.iam.gserviceaccount.com
+project = driverdrowsiness
+disable_usage_reporting = True
+

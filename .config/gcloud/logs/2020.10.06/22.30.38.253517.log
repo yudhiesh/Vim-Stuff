@@ -1,0 +1,8 @@
+2020-10-06 22:30:38,258 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2020-10-06 22:30:38,261 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2020-10-06 22:30:38,263 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "yudhiesh@driverdrowsiness.iam.gserviceaccount.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "driverdrowsiness"]
+2020-10-06 22:31:53,721 DEBUG    root            Caught socket error, retrying: [Errno 60] Operation timed out
+2020-10-06 22:31:53,723 DEBUG    root            Retrying request to url https://cloudresourcemanager.googleapis.com/v1/projects/driverdrowsiness?alt=json after exception [Errno 60] Operation timed out
+2020-10-06 22:31:58,334 INFO     root            Display format: "default value(name)"
+2020-10-06 22:31:58,335 INFO     ___FILE_ONLY___ driverdrowsiness
+

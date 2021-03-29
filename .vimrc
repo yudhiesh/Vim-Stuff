@@ -5,22 +5,23 @@ set background=dark
 set laststatus=2
 set cmdheight=2
 set smartindent
+set nospell
 set nocursorline
 set noswapfile
 set smarttab
 set incsearch 
+set number
 set cindent
 set tabstop=2
 set guicursor=
-set relativenumber
 set nohlsearch
+set textwidth=80
 set noshowmode
 set noerrorbells
 set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
-set nu
 set wrap
 set smartcase
 set noswapfile
@@ -29,6 +30,7 @@ set undodir=~/.vim/undodir
 set undofile
 set incsearch
 set statusline=%<%f\ %h%m%r%{kite#statusline()}%=%-14.(%l,%c%V%)\ %P
+set autowrite
 set laststatus=2  
 set cmdheight=2
 
@@ -64,17 +66,22 @@ Plug 'kiteco/vim-plugin'
 Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'
 Plug 'sheerun/vim-polyglot'
-Plug 'bignimbus/pop-punk.vim'
+Plug 'morhetz/gruvbox'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
+Plug 'scalameta/coc-metals', {'do': 'yarn install --frozen-lockfile'}
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'puremourning/vimspector'
+Plug 'szw/vim-maximizer'
 call plug#end()
 " use a better vertsplit char
 set fillchars+=vert:│
 
 
-let g:pop_punk_italic = 0
 
-colorscheme pop-punk
+set bg=dark
+let g:gruvbox_contrast_dark = 'hard'
+colorscheme gruvbox
 
 
 let mapleader = "\<Space>"
@@ -92,7 +99,6 @@ let g:prettier#quickfix_auto_focus = 0
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 " run prettier on save
 let g:prettier#autoformat = 1
-autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
 set bs=indent,eol,start
 
 let &t_SI.="\e[5 q" "SI = INSERT mode
@@ -101,9 +107,65 @@ let &t_EI.="\e[1 q" "EI = NORMAL mode (ELSE)
 
 let g:netrw_browse_split = 2
 let g:netrw_banner = 0
-let g:netrw_winsize = 25
+let g:netrw_winsize = 50
 let g:netrw_localrmdir='rm -r'
 
+" Go syntax highlighting "
+filetype plugin indent on
+
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_operators = 1
+let g:go_auto_type_info = 1
+" Auto formatting and importing "
+let g:go_fmt_autosave = 1
+let g:go_fmt_command = "goimports"
+
+" Status line types/signatures
+let g:go_auto_type_info = 1
+
+" Run :GoBuild or :GoTestCompile based on the go file
+function! s:build_go_files()
+  let l:file = expand('%')
+  if l:file =~# '^\f\+_test\.go$'
+    call go#test#Test(0, 1)
+  elseif l:file =~# '^\f\+\.go$'
+    call go#cmd#Build(0)
+  endif
+endfunction
+
+" Map keys for most used commands. "
+" Ex: `\b` for building, `\r` for running and `\b` for running test. "
+autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
+autocmd FileType go nmap <leader>r  <Plug>(go-run)
+autocmd FileType go nmap <leader>t  <Plug>(go-test)
+autocmd FileType go nnoremap <leader>d :GoDocBrowser<CR>
+autocmd FileType go nnoremap <leader>n :GoRename<CR>
+
+"Vim spector bindings for debugging"
+
+nnoremap <leader>m :MaximizerToggle!<CR>
+nnoremap <leader>dd :call vimspector#Launch()<CR>
+nnoremap <leader>dc :call GotoWindow(g:vimspector_session_windows.code)<CR>
+nnoremap <leader>dt :call GotoWindow(g:vimspector_session_windows.tagpage)<CR>
+nnoremap <leader>dv :call GotoWindow(g:vimspector_session_windows.variables)<CR>
+nnoremap <leader>dw :call GotoWindow(g:vimspector_session_windows.watches)<CR>
+nnoremap <leader>ds :call GotoWindow(g:vimspector_session_windows.stack_trace)<CR>
+nnoremap <leader>do :call GotoWindow(g:vimspector_session_windows.output)<CR>
+nnoremap <leader>de :call vimspector#Reset()<CR>
+nnoremap <leader>dtcb :call vimspector#CleanLineBreakpoint()<CR>
+
+nmap <leader>dl <Plug>VimspectorStepInto
+nmap <leader>dj <Plug>VimspectorStepOver
+nmap <leader>dk <Plug>VimspectorStepOut
+nmap <leader>d_ <Plug>VimspectorStepRestart
+nnoremap <leader>d<space> :call vimspector#Continue()<CR>
+
+nmap <leader>drc <Plug>VimspectorRunToCursor
+nmap <leader>dbp <Plug>VimspectorToggleBreakpoint
+nmap <leader>dcbp <Plug>VimspectorToggleConditionalBreakpoint
 
 
 " Set cursor from block to line when switching between insert and other modes
@@ -118,7 +180,7 @@ endif
 :autocmd InsertLeave * set nocul
 
 nmap <leader>p  <Plug>(coc-format-selected)
-
+autocmd FileType json syntax match Comment +\/\/.\+$+
 " FZF key bindings
 nnoremap <silent> <C-p> :ProjectFiles<CR>
 nnoremap <silent> <C-f> :Rg<CR>
@@ -227,7 +289,7 @@ endif
 
 
 let g:lightline = {
-  \ 'colorscheme': 'pop_punk',
+  \ 'colorscheme': 'gruvbox',
   \ 'active': {
   \   'right': [['lineinfo'], ['cocstatus', 'fileformat', 'filetype']]
   \ },
@@ -366,4 +428,5 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+
 
