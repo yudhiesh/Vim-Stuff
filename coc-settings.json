@@ -1,4 +1,4 @@
-({
+{
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "markdown",
@@ -54,9 +54,7 @@
   "rust-analyzer.diagnostics.enable": false,
   "rust-analyzer.serverPath": "~/.cargo/bin/rust-analyzer",
   "metals.javaHome": "/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home",
-  "tsserver.npm": "/usr/local/bin/npm"
-},
-{
+  "tsserver.npm": "/usr/local/bin/npm",
   "languageserver": {
     "golang": {
       "command": "gopls",
@@ -64,4 +62,4 @@
       "filetypes": ["go"]
     }
   }
-})
+}
