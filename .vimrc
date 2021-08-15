@@ -1,6 +1,9 @@
 syntax on
 
 set t_Co=256
+set t_vb=
+set visualbell
+set termguicolors
 set background=dark
 set laststatus=2
 set cmdheight=2
@@ -33,6 +36,7 @@ set statusline=%<%f\ %h%m%r%{kite#statusline()}%=%-14.(%l,%c%V%)\ %P
 set autowrite
 set laststatus=2  
 set cmdheight=2
+set t_ut=
 
 " if hidden is not set, TextEdit might fail.
 set hidden 
@@ -42,9 +46,6 @@ set nocompatible
 
 " don't give |ins-completion-menu| messages.
 set shortmess+=c
-
-        
-
 " Specify a directory for plugins
 " Initialize plugin system
 call plug#begin('~/.vim/plugged')
@@ -69,28 +70,19 @@ Plug 'sheerun/vim-polyglot'
 Plug 'morhetz/gruvbox'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
-Plug 'scalameta/coc-metals', {'do': 'yarn install --frozen-lockfile'}
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'puremourning/vimspector'
 Plug 'szw/vim-maximizer'
 call plug#end()
 " use a better vertsplit char
 set fillchars+=vert:│
 
-
-
 set bg=dark
-let g:gruvbox_contrast_dark = 'hard'
+
+let g:gruvbox_contrast_dark='hard'
+
 colorscheme gruvbox
 
-
 let mapleader = "\<Space>"
-
-let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.js,*.svelte'
-let g:WebDevIconsUnicodeDecorateFolderNodes = 1
-
-
-let g:rustfmt_autosave = 1 
 
 "vim-prettier
 let g:prettier#quickfix_enabled = 0
@@ -100,7 +92,6 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 " run prettier on save
 let g:prettier#autoformat = 1
 set bs=indent,eol,start
-
 let &t_SI.="\e[5 q" "SI = INSERT mode
 let &t_SR.="\e[4 q" "SR = REPLACE mode
 let &t_EI.="\e[1 q" "EI = NORMAL mode (ELSE)
@@ -157,25 +148,7 @@ nnoremap <leader>do :call GotoWindow(g:vimspector_session_windows.output)<CR>
 nnoremap <leader>de :call vimspector#Reset()<CR>
 nnoremap <leader>dtcb :call vimspector#CleanLineBreakpoint()<CR>
 
-nmap <leader>dl <Plug>VimspectorStepInto
-nmap <leader>dj <Plug>VimspectorStepOver
-nmap <leader>dk <Plug>VimspectorStepOut
-nmap <leader>d_ <Plug>VimspectorStepRestart
-nnoremap <leader>d<space> :call vimspector#Continue()<CR>
 
-nmap <leader>drc <Plug>VimspectorRunToCursor
-nmap <leader>dbp <Plug>VimspectorToggleBreakpoint
-nmap <leader>dcbp <Plug>VimspectorToggleConditionalBreakpoint
-
-
-" Set cursor from block to line when switching between insert and other modes
-if exists('$TMUX')
-  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
-  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
-else
-  let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-  let &t_EI = "\<Esc>]50;CursorShape=0\x7"
-endif
 :autocmd InsertEnter * set cul
 :autocmd InsertLeave * set nocul
 
@@ -344,6 +317,8 @@ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " Use `[g` and `]g` to navigate diagnostics
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
 nmap <silent> ]g <Plug>(coc-diagnostic-next)
+"Save and run the python file as a script"
+nmap <buffer> <leader>r <Esc>:w<CR>:!clear;python %<CR>
 
 " Remap keys for gotos
 nmap <silent> gd <Plug>(coc-definition)
@@ -428,5 +403,3 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
-
-

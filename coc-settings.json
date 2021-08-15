@@ -18,13 +18,9 @@
   ],
   "coc.preferences.formatOnType": true,
   "python.pythonPath": "python3",
-  "python.venvPath": "/Users/yudhiesh/anaconda3/envs/Voice", // jedi
-  "python.jediEnabled": true,
+  "python.venvPath": "/Users/yravindranath/opt/anaconda3/envs/DPAA",
   "suggest.timeout": 2000, //formatting
   "python.formatting.provider": "black",
-  "python.formatting.blackPath": "/Users/yudhiesh/anaconda3/envs/Voice/bin/black", //linting
-  "python.linting.pylintEnabled": true,
-  "python.linting.pylintPath": "/Users/yudhiesh/anaconda3/envs/Voice/bin/pylint",
   "eslint.autoFixOnSave": true,
   "tsserver.log": "verbose",
   "tsserver.formatOnType": true,
@@ -41,19 +37,10 @@
     }
   },
   "prettier.disableSuccessMessage": true,
-  "clangd.path": "/Users/yudhiesh/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
   "diagnostic.virtualText": false,
   "diagnostic.checkCurrentLine": true,
-  "diagnostic.errorSign": "‚úò",
-  "diagnostic.warningSign": "ÔÑ™",
-  "diagnostic.infoSign": "ÔÑ©",
   "suggest.autoTrigger": "always",
   "signature.enable": false,
-  "coc.preferences.snippets.enable": true,
-  "rust-analyzer.diagnostics.enable": true,
-  "rust-analyzer.serverPath": "~/.cargo/bin/rust-analyzer",
-  "metals.javaHome": "/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home",
-  "tsserver.npm": "/usr/local/bin/npm",
   "languageserver": {
     "golang": {
       "command": "gopls",
