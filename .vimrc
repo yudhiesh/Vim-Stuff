@@ -4,6 +4,7 @@ set t_Co=256
 set t_vb=
 set visualbell
 set termguicolors
+set relativenumber
 set background=dark
 set laststatus=2
 set cmdheight=2
@@ -62,7 +63,7 @@ Plug 'tpope/vim-dispatch'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
+Plug 'HerringtonDarkholme/yats.vim' 
 Plug 'kiteco/vim-plugin'
 Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'
@@ -72,6 +73,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'szw/vim-maximizer'
+Plug 'stsewd/fzf-checkout.vim'
 call plug#end()
 " use a better vertsplit char
 set fillchars+=vert:│
@@ -135,7 +137,9 @@ autocmd FileType go nmap <leader>t  <Plug>(go-test)
 autocmd FileType go nnoremap <leader>d :GoDocBrowser<CR>
 autocmd FileType go nnoremap <leader>n :GoRename<CR>
 
-"Vim spector bindings for debugging"
+"Save and run the python file as a script"
+autocmd FileType python nnoremap <leader>r <Esc>:w<CR>:!clear;python %<CR>
+
 
 nnoremap <leader>m :MaximizerToggle!<CR>
 nnoremap <leader>dd :call vimspector#Launch()<CR>
@@ -182,8 +186,9 @@ let g:fzf_action = {
   \ 'ctrl-x': 'split',
   \ 'ctrl-v': 'vsplit' }
 
-let g:fzf_layout = { 'down': '~20%' }
+let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8}}
 let $FZF_DEFAULT_OPTS='--reverse'
+nnoremap <leader>gb :GBranches<CR>
 " Customize fzf colors to match your color scheme
 " - fzf#wrap translates this to a set of `--color` options
 let g:fzf_colors =
@@ -264,11 +269,13 @@ endif
 let g:lightline = {
   \ 'colorscheme': 'gruvbox',
   \ 'active': {
+  \   'left': [[ 'mode', 'paste' ],[ 'gitbranch', 'readonly', 'filename', 'modified' ]],
   \   'right': [['lineinfo'], ['cocstatus', 'fileformat', 'filetype']]
   \ },
   \ 'component_function': {
   \   'filename': 'LightLineFilename',
-  \   'cocstatus':'coc#status'
+  \   'cocstatus':'coc#status',
+  \   'gitbranch': 'FugitiveHead',
   \ },
   \ 'component': {
   \   'lineinfo': "[%l:%-v] [%{printf('%03d/%03d',line('.'),line('$'))}]",
@@ -317,8 +324,6 @@ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " Use `[g` and `]g` to navigate diagnostics
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
 nmap <silent> ]g <Plug>(coc-diagnostic-next)
-"Save and run the python file as a script"
-nmap <buffer> <leader>r <Esc>:w<CR>:!clear;python %<CR>
 
 " Remap keys for gotos
 nmap <silent> gd <Plug>(coc-definition)
@@ -403,3 +408,25 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+
+
+" Git Fugitive stuff "
+" Get status
+nmap <leader>gs :G<CR> 
+nmap <leader>gh :diffget //3<CR>
+nmap <leader>gu :diffget //2<CR>
+
+" Copy code from left of cursor
+nnoremap Y y$
+" Center cursor while navigating 
+nnoremap n nzzzv
+nnoremap N Nzzzv
+
+
+" Text moving
+nnoremap <leader>k :m .-2<CR>==
+nnoremap <leader>j :m .+1<CR>==
+inoremap <C-j> <esc>:m .-2<CR>==
+inoremap <C-k> <esc>:m .+1<CR>==
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
