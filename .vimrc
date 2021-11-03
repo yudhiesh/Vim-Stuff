@@ -74,15 +74,16 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'szw/vim-maximizer'
 Plug 'stsewd/fzf-checkout.vim'
+Plug 'tpope/vim-commentary'
 call plug#end()
 " use a better vertsplit char
 set fillchars+=vert:│
 
-set bg=dark
 
 let g:gruvbox_contrast_dark='hard'
-
+let g:gruvbox_invert_selection='0'
 colorscheme gruvbox
+set background=dark
 
 let mapleader = "\<Space>"
 
@@ -152,6 +153,7 @@ nnoremap <leader>do :call GotoWindow(g:vimspector_session_windows.output)<CR>
 nnoremap <leader>de :call vimspector#Reset()<CR>
 nnoremap <leader>dtcb :call vimspector#CleanLineBreakpoint()<CR>
 
+noremap <leader>/ :Commentary<cr>
 
 :autocmd InsertEnter * set cul
 :autocmd InsertLeave * set nocul
@@ -346,7 +348,8 @@ endfunction
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Remap for rename current word
-nmap <F2> <Plug>(coc-rename)
+nmap <leader>rr <Plug>(coc-rename)
+nnoremap <leader>prw :CocSearch <C-R>=expand("<cword>")<CR><CR>
 
 " Remap for format selected region
 xmap <leader>f  <Plug>(coc-format-selected)
@@ -430,3 +433,4 @@ inoremap <C-j> <esc>:m .-2<CR>==
 inoremap <C-k> <esc>:m .+1<CR>==
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
+
