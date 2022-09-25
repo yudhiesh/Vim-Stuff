@@ -8,12 +8,12 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+plugins=(git z colored-man-pages zsh-syntax-highlighting zsh-autosuggestions poetry fzf zsh-fzf-history-search)
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/yravindranath/.oh-my-zsh"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-plugins=(git z colored-man-pages zsh-syntax-highlighting zsh-autosuggestions)
 
 ZSH_DISABLE_COMPFIX=true
 
@@ -24,6 +24,20 @@ ZSH_DISABLE_COMPFIX=true
 
 export TERM=xterm-256color
 
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/yravindranath/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/yravindranath/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/yravindranath/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/yravindranath/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -117,22 +131,6 @@ source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/yravindranath/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/yravindranath/opt/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/yravindranath/opt/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/yravindranath/opt/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-# Stuff for setting up vim in bash 
 bindkey -v
 export KEYTIMEOUT=1
 
@@ -168,3 +166,21 @@ bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
+
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+export SPARK_HOME="/usr/local/Cellar/apache-spark/3.2.1/libexec"
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/yravindranath/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+export PATH="$HOME/.poetry/bin:$PATH"
+
+### Added by Zinit's installer
+if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
+    print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
+    command mkdir -p "$HOME/.local/share/zinit" && command chmod g-rwX "$HOME/.local/share/zinit"
+    command git clone https://github.com/zdharma-continuum/zinit "$HOME/.local/share/zinit/zinit.git" && \
+        print -P "%F{33} %F{34}Installation successful.%f%b" || \
+        print -P "%F{160} The clone has failed.%f%b"
+fi
+
