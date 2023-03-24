@@ -67,7 +67,6 @@ lvim.builtin.which_key.mappings["t"] = {
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
-lvim.builtin.notify.active = true
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
 lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
@@ -75,7 +74,6 @@ lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
   "bash",
-  "c",
   "javascript",
   "json",
   "lua",
@@ -88,14 +86,12 @@ lvim.builtin.treesitter.ensure_installed = {
   "yaml",
 }
 
-lvim.builtin.treesitter.ignore_install = { "haskell" }
 lvim.builtin.treesitter.highlight.enabled = true
 
 -- generic LSP settings
 
 -- -- make sure server will always be installed even if the server is in skipped_servers list
 lvim.lsp.installer.setup.ensure_installed = {
-  "sumeko_lua",
   "jsonls",
 }
 
@@ -127,6 +123,8 @@ lvim.builtin.lualine.options.theme = custom_gruvbox
 --   toggle_server_expand = "o",
 -- }
 
+lvim.lsp.installer.automatic_servers_installation = true
+
 -- ---@usage disable automatic installation of servers
 -- lvim.lsp.installer.setup.automatic_installation = false
 
@@ -155,7 +153,7 @@ lvim.format_on_save = {
   ---@usage pattern string pattern used for the autocommand (Default: '*')
   pattern = "*",
   ---@usage timeout number timeout in ms for the format request (Default: 1000)
-  timeout = 5000, -- change this (default is 1000 which means 1 second)
+  timeout = 1500, -- change this (default is 1000 which means 1 second)
   ---@usage filter func to select client
   filter = require("lvim.lsp.utils").format_filter,
 }
@@ -164,12 +162,13 @@ lvim.format_on_save = {
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
   { command = "black", filetypes = { "python" } },
+  { command = "isort", filetypes = { "python" } },
 }
 
 -- -- set additional linters
 local linters = require "lvim.lsp.null-ls.linters"
 linters.setup {
-  -- { command = "flake8", filetypes = { "python" } },
+  { command = "flake8", filetypes = { "python" } },
   {
     -- each linter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
     command = "shellcheck",
@@ -186,6 +185,7 @@ lvim.plugins = {
     cmd = "TroubleToggle",
   },
   { "ellisonleao/gruvbox.nvim" },
+  { "hashivim/vim-terraform" },
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
