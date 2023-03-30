@@ -17,7 +17,6 @@ return {
           nls.builtins.formatting.terraform_fmt,
           nls.builtins.formatting.black,
           nls.builtins.formatting.isort,
-          nls.builtins.formatting.rustfmt,
           nls.builtins.diagnostics.flake8,
         },
       }

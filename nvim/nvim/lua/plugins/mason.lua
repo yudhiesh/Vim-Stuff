@@ -12,8 +12,6 @@ return {
         "tflint",
         "black",
         "isort",
-        "rust-analyzer",
-        "rustfmt",
       },
     },
   },
