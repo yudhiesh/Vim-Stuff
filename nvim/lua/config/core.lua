@@ -124,6 +124,7 @@ return {
   -- treesitter, mason and typescript.nvim. So instead of the above, you can use:
   { import = "lazyvim.plugins.extras.lang.typescript" },
 
+  { import = "lazyvim.plugins.extras.coding.copilot" },
   -- add more treesitter parsers
   {
     "nvim-treesitter/nvim-treesitter",
