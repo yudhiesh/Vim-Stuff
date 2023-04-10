@@ -26,8 +26,8 @@ return {
           buftype = { "nofile", "help", "terminal" },
         },
       },
-      fg_color = "#1d2021",
-      other_win_hl_color = "#fe8019",
+      fg_color = "#24273A",
+      other_win_hl_color = "#c6a0f6",
     },
   },
 }
