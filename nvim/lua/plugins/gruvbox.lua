@@ -1,11 +1,11 @@
 return {
-  { "catppuccin/nvim" },
+  { "ellisonleao/gruvbox.nvim" },
 
+  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
-      flavor = "mocha",
+      colorscheme = "gruvbox",
     },
   },
 }

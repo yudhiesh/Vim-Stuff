@@ -12,6 +12,7 @@ return {
     -- opts will be merged with the parent spec
     opts = { use_diagnostic_signs = true },
   },
+  { "nvim-tree/nvim-web-devicons" },
 
   -- add symbols-outline
   {
@@ -20,6 +21,7 @@ return {
     keys = { { "<leader>cs", "<cmd>SymbolsOutline<cr>", desc = "Symbols Outline" } },
     config = true,
   },
+  { "echasnovski/mini.nvim", version = false },
 
   -- override nvim-cmp and add cmp-emoji
   {
@@ -81,6 +83,7 @@ return {
         rust_analyzer = {},
         yamlls = {},
         jsonls = {},
+        gopls = {},
       },
     },
   },
@@ -131,7 +134,6 @@ return {
     opts = {
       ensure_installed = {
         "bash",
-        "help",
         "html",
         "javascript",
         "json",
@@ -147,6 +149,10 @@ return {
         "yaml",
         "rust",
         "c",
+        "go",
+        "gomod",
+        "gowork",
+        "gosum",
       },
     },
   },
