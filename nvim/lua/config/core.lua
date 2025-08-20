@@ -12,7 +12,6 @@ return {
     -- opts will be merged with the parent spec
     opts = { use_diagnostic_signs = true },
   },
-  { "nvim-tree/nvim-web-devicons" },
 
   -- add symbols-outline
   {
