@@ -6,9 +6,9 @@ return {
 
       for _, tool in ipairs({
         "hadolint",
-        "stylua",
-        "shellcheck",
-        "shfmt",
+        "debugpy",
+        "gofumpt",
+        "pyright",
         "prettier",
         "tofu-ls",
       }) do
