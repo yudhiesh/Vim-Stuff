@@ -1,0 +1,9 @@
+#define CHORDAL_HOLD
+#undef DEBOUNCE
+#define DEBOUNCE 10
+
+#define USB_SUSPEND_WAKEUP_DELAY 0
+#define SERIAL_NUMBER "Zp5Wz/zLanEj"
+#define LAYER_STATE_8BIT
+
+#define RGB_MATRIX_STARTUP_SPD 60
