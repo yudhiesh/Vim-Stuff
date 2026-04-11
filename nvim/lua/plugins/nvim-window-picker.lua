@@ -2,7 +2,7 @@ return {
   {
     "s1n7ax/nvim-window-picker",
     keys = {
-      { "n", "<leader>wp", ":WindowPicker<CR>", desc = "Window Picker" },
+      { "<leader>wp", "<cmd>WindowPicker<CR>", mode = "n", desc = "Window Picker" },
     },
     opts = {
       autoselect_one = true,
