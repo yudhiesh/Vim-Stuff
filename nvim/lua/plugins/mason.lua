@@ -10,14 +10,7 @@ return {
         "gofumpt",
         "pyright",
         "prettier",
-        "ruff",
-        "rust-analyzer",
-        "shellcheck",
-        "shfmt",
-        "stylua",
-        "taplo",
-        "tflint",
-        "goimports",
+        "tofu-ls",
       }) do
         if not vim.tbl_contains(opts.ensure_installed, tool) then
           table.insert(opts.ensure_installed, tool)

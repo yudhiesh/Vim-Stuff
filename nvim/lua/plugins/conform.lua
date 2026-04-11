@@ -7,8 +7,7 @@ return {
       python = { "ruff" },
       rust = { "rustfmt", lsp_format = "fallback" },
       javascript = { "prettierd", "prettier", stop_after_first = true },
-      go = { "goimports", "gofmt" },
-      toml = { "taplo" },
+      go = { "goimports", "gofumpt" },
     },
   },
 }
