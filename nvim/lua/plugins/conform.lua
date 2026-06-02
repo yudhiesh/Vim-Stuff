@@ -3,6 +3,7 @@ return {
   opts = {
     notify_on_error = false,
     formatters_by_ft = {
+      cuda = { "clang_format" },
       lua = { "stylua" },
       python = { "ruff" },
       rust = { "rustfmt", lsp_format = "fallback" },
