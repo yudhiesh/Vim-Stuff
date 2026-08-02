@@ -8,7 +8,6 @@ return {
         "c",
         "cmake",
         "cpp",
-        "cuda",
         "go",
         "gomod",
         "gowork",

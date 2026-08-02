@@ -1,0 +1,10 @@
+*
+!.gitignore
+!README.md
+!agent/
+agent/*
+!agent/extensions/
+agent/extensions/*
+!agent/extensions/subagent/
+agent/extensions/subagent/*
+!agent/extensions/subagent/config.json

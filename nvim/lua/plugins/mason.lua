@@ -6,11 +6,12 @@ return {
 
       for _, tool in ipairs({
         "hadolint",
-        "debugpy",
-        "gofumpt",
-        "pyright",
+        "stylua",
+        "shellcheck",
+        "shfmt",
         "prettier",
         "tofu-ls",
+        "pyrefly",
       }) do
         if not vim.tbl_contains(opts.ensure_installed, tool) then
           table.insert(opts.ensure_installed, tool)
