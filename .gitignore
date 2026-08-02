@@ -1,0 +1,25 @@
+# editor / tool state
+.DS_Store
+*.bak
+*.log
+*.pid
+*.sock
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.swp
+*.swo
+.nvimlog
+
+# generated / vendor
+node_modules/
+raycast/extensions/
+*.map
+
+# secrets / machine state
+atuin/atuin-receipt.json
+gh/hosts.yml
+herdr/.plugins.lock
+herdr/session.json
+cagent/
+github-copilot/versions.json
