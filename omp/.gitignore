@@ -1,0 +1,6 @@
+# editor / tool state
+.DS_Store
+
+# herdr skill: vendored deps + accidental nested copy of the upstream repo
+skills/herdr/vendor/
+skills/herdr/herdr/

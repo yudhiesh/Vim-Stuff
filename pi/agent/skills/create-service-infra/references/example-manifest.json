@@ -1,0 +1,21 @@
+{
+  "environment": "staging",
+  "linear_ticket": "ENG-5000",
+  "service_slug": "recommendation-api",
+  "service_type": "api",
+  "team": "Data",
+  "project": "oc-recsys",
+  "secrets_manager": true,
+  "rabbitmq": {
+    "enabled": false
+  },
+  "s3": null,
+  "database": {
+    "mode": "new",
+    "slug": "recommendation-data"
+  },
+  "ecr": {
+    "create": true,
+    "production_ticket": "ENG-5001"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian CLI"
+  short_description: "Obsidian CLI vault and plugin workflows"
+  default_prompt: "Use the obsidian CLI to manage vault notes/tasks/properties and to debug or verify Obsidian plugins/themes with reload, errors, console, screenshots, and DOM checks."

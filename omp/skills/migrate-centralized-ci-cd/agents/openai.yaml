@@ -1,0 +1,4 @@
+interface:
+  display_name: "Migrate Centralized CI/CD"
+  short_description: "Move repos to shared CI/CD workflows"
+  default_prompt: "Use $migrate-centralized-ci-cd to migrate this repository to the centralized ci-cd workflows."

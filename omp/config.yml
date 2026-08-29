@@ -1,0 +1,62 @@
+setupVersion: 2
+modelRoles:
+  default: openrouter/z-ai/glm-5.3-flash
+  advisor: openrouter/z-ai/glm-5.3-flash:max
+providers:
+  webSearchOrder:
+    - codex
+    - perplexity
+    - gemini
+    - anthropic
+    - xai
+    - zai
+    - exa
+    - tinyfish
+    - jina
+    - kagi
+    - tavily
+    - firecrawl
+    - brave
+    - kimi
+    - parallel
+    - synthetic
+    - searxng
+    - startpage
+    - duckduckgo
+    - ecosia
+    - google
+    - mojeek
+    - public
+hideThinkingBlock: false
+github:
+  enabled: true
+codexResets:
+  autoRedeem: "yes"
+task:
+  agentModelOverrides:
+    designer: openai-codex/gpt-5.6-luna
+    task: openai-codex/gpt-5.6-luna
+browser:
+  headless: false
+theme:
+  dark: catppuccin-mocha
+  light: catppuccin-latte
+statusLine:
+  preset: ascii
+  separator: slash
+tui:
+  textSizing: true
+  codexResetFireworks: true
+display:
+  showTokenUsage: true
+bash:
+  enabled: true
+advisor:
+  enabled: true
+defaultThinkingLevel: auto
+lsp:
+  formatOnWrite: false
+memory:
+  backend: mnemopi
+mnemopi:
+  scoping: per-project

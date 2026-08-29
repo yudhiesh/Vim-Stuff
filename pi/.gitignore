@@ -5,6 +5,10 @@
 agent/*
 !agent/extensions/
 agent/extensions/*
+!agent/settings.json
+!agent/skills/
+!agent/skills/**
+agent/skills/herdr
 !agent/extensions/subagent/
 agent/extensions/subagent/*
 !agent/extensions/subagent/config.json

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explain Diff HTML"
+  short_description: "Create interactive HTML explanations of code changes"
+  default_prompt: "Use $explain-diff-html to explain this code change as a self-contained interactive HTML page."

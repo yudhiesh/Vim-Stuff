@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "marketplaces": [
+    {
+      "name": "goland-claude-marketplace",
+      "sourceType": "github",
+      "sourceUri": "JetBrains/go-modern-guidelines",
+      "catalogPath": "/Users/yravindranath/.omp/plugins/cache/marketplaces/goland-claude-marketplace/marketplace.json",
+      "addedAt": "2026-08-26T01:54:14.011Z",
+      "updatedAt": "2026-08-29T08:00:15.792Z"
+    },
+    {
+      "name": "datadog-pup",
+      "sourceType": "github",
+      "sourceUri": "DataDog/pup",
+      "catalogPath": "/Users/yravindranath/.omp/plugins/cache/marketplaces/datadog-pup/marketplace.json",
+      "addedAt": "2026-08-29T09:55:34.127Z",
+      "updatedAt": "2026-08-29T09:55:34.127Z"
+    }
+  ]
+}

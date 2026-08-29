@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tufte Data Viz"
+  short_description: "Tufte-first chart design and review guidance."
+  default_prompt: "Apply Tufte principles and accessibility practices when creating or reviewing data visualizations."
