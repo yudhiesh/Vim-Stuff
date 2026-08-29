@@ -5,6 +5,8 @@
 agent/*
 !agent/extensions/
 agent/extensions/*
+!agent/extensions/**
+agent/extensions/linear/credentials.json
 !agent/settings.json
 !agent/skills/
 !agent/skills/**
