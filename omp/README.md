@@ -14,7 +14,7 @@ Mirrors the live `~/.omp` state so a new machine can be rebuilt from it.
 | `extensions/`                                   | `~/.omp/agent/extensions/` | `herdr-omp-agent-state.ts` (herdr-managed; herdr regenerates it on reinstall)      |
 
 Not tracked, machine-local or secret: auth (`agent.db`), sessions, history, memories,
-`plugins/cache/`, `plugins/node_modules/`.
+subagent run artifacts (`.pi-subagents/`), `plugins/cache/`, `plugins/node_modules/`.
 
 ## Restore on a fresh machine
 
@@ -56,7 +56,7 @@ cd Vim-Stuff
 cp ~/.omp/agent/{config.yml,models.yml,mcp.json} omp/
 cp ~/.omp/marketplaces.json omp/
 cp ~/.omp/plugins/{installed_plugins.json,omp-plugins.lock.json,package.json} omp/plugins/
-rsync -a --delete --exclude .DS_Store --exclude /herdr/vendor/ --exclude /herdr/herdr/ ~/.omp/agent/skills/ omp/skills/
+rsync -a --delete --exclude .DS_Store --exclude .pi-subagents --exclude /herdr/vendor/ --exclude /herdr/herdr/ ~/.omp/agent/skills/ omp/skills/
 rsync -a --delete --exclude .DS_Store ~/.omp/agent/themes/ omp/themes/
 cp ~/.omp/agent/extensions/*.ts omp/extensions/
 ```

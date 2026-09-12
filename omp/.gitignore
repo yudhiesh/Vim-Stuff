@@ -8,3 +8,6 @@ skills/herdr/herdr/
 # plugin caches: metadata is tracked, fetched plugin content is machine-local
 plugins/cache/
 plugins/node_modules/
+
+# subagent run artifacts (transcripts, meta) written inside a skill dir
+.pi-subagents/
