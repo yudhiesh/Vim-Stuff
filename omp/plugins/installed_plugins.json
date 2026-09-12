@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "plugins": {
+    "modern-go-guidelines@goland-claude-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "/Users/yravindranath/.omp/plugins/cache/plugins/goland-claude-marketplace___modern-go-guidelines___1.1.1",
+        "version": "1.1.1",
+        "installedAt": "2026-08-26T01:54:36.243Z",
+        "lastUpdated": "2026-08-26T01:54:36.243Z"
+      }
+    ],
+    "linear-cli@linear-cli": [
+      {
+        "scope": "user",
+        "installPath": "/Users/yravindranath/.omp/plugins/cache/plugins/linear-cli___linear-cli___2.5.0",
+        "version": "2.5.0",
+        "installedAt": "2026-08-29T14:30:33.461Z",
+        "lastUpdated": "2026-08-29T14:30:33.461Z"
+      }
+    ],
+    "polars@polars": [
+      {
+        "scope": "user",
+        "installPath": "/Users/yravindranath/.omp/plugins/cache/plugins/polars___polars___0.3.1",
+        "version": "0.3.1",
+        "installedAt": "2026-09-08T06:46:39.432Z",
+        "lastUpdated": "2026-09-08T06:46:39.432Z"
+      }
+    ]
+  }
+}

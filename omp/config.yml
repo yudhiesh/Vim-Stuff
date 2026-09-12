@@ -1,7 +1,7 @@
 setupVersion: 2
 modelRoles:
-  default: openrouter/z-ai/glm-5.3-flash
   advisor: openrouter/z-ai/glm-5.3-flash:max
+  default: openrouter/deepseek/deepseek-v4.1-flash:max
 providers:
   webSearchOrder:
     - codex
@@ -27,15 +27,18 @@ providers:
     - google
     - mojeek
     - public
-hideThinkingBlock: false
+hideThinkingBlock: true
 github:
   enabled: true
 codexResets:
   autoRedeem: "yes"
 task:
   agentModelOverrides:
-    designer: openai-codex/gpt-5.6-luna
-    task: openai-codex/gpt-5.6-luna
+    reviewer: openai-codex/gpt-6-astra
+    scout: openrouter/deepseek/deepseek-v4-flash-0731
+    security-reviewer: openrouter/deepseek/deepseek-v4-flash-0731
+    sonic: openrouter/deepseek/deepseek-v4-flash-0731
+    task: openrouter/deepseek/deepseek-v4-flash-0731
 browser:
   headless: false
 theme:
@@ -60,3 +63,8 @@ memory:
   backend: mnemopi
 mnemopi:
   scoping: per-project
+dev:
+  autoqaConsent: granted
+skillful: false
+tools:
+  xdevDocs: catalog
