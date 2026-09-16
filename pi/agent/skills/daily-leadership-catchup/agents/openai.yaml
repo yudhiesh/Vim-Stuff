@@ -1,0 +1,4 @@
+interface:
+  display_name: "Daily Leadership Catchup"
+  short_description: "Daily Linear and GitHub leadership catchups into Obsidian."
+  default_prompt: "Catch me up on Data and DevOps work since the last successful run and write today's leadership catchup note."

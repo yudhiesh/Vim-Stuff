@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "marketplaces": [
+    {
+      "name": "goland-claude-marketplace",
+      "sourceType": "github",
+      "sourceUri": "JetBrains/go-modern-guidelines",
+      "catalogPath": "/Users/yravindranath/.omp/plugins/cache/marketplaces/goland-claude-marketplace/marketplace.json",
+      "addedAt": "2026-08-26T01:54:14.011Z",
+      "updatedAt": "2026-09-12T01:58:11.420Z"
+    },
+    {
+      "name": "datadog-pup",
+      "sourceType": "github",
+      "sourceUri": "DataDog/pup",
+      "catalogPath": "/Users/yravindranath/.omp/plugins/cache/marketplaces/datadog-pup/marketplace.json",
+      "addedAt": "2026-08-29T09:55:34.127Z",
+      "updatedAt": "2026-09-12T01:58:12.893Z"
+    },
+    {
+      "name": "linear-cli",
+      "sourceType": "github",
+      "sourceUri": "schpet/linear-cli",
+      "catalogPath": "/Users/yravindranath/.omp/plugins/cache/marketplaces/linear-cli/marketplace.json",
+      "addedAt": "2026-08-29T14:30:29.286Z",
+      "updatedAt": "2026-09-12T01:58:14.520Z"
+    },
+    {
+      "name": "polars",
+      "sourceType": "github",
+      "sourceUri": "polars-inc/skills",
+      "catalogPath": "/Users/yravindranath/.omp/plugins/cache/marketplaces/polars/marketplace.json",
+      "addedAt": "2026-09-08T06:41:13.991Z",
+      "updatedAt": "2026-09-12T01:58:15.572Z"
+    }
+  ]
+}

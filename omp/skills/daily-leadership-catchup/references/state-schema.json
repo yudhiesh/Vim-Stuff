@@ -1,0 +1,18 @@
+{
+  "timezone": "Asia/Kuala_Lumpur",
+  "identity_aliases": {
+    "linear_handle": "yudhiesh",
+    "github_usernames": ["yudhiesh-oc"],
+    "emails": ["yravindranath@onecredit.my"]
+  },
+  "scopes": {
+    "linear_devops_project_id": "devops-c91ffc92ee78",
+    "linear_data_scope": "data-team-projects",
+    "github_data_scope": "data-team-repos",
+    "github_devops_scope": "devops-team-repos"
+  },
+  "run_state": {
+    "last_successful_run_at": null,
+    "last_status": null
+  }
+}

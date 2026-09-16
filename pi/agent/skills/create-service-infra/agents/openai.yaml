@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Service Infrastructure"
+  short_description: "Onboard ECS APIs and consumers safely"
+  default_prompt: "Use $create-service-infra to onboard one ECS API or RabbitMQ consumer in a single environment."

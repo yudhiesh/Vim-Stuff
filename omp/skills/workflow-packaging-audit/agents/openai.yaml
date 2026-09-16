@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Packaging Audit"
+  short_description: "Find repeated workflows and package them smartly"
+  default_prompt: "Analyze recent work history to identify repeated workflows, shortlist packaging opportunities, and create only high-confidence missing skills, subagents, or automations."

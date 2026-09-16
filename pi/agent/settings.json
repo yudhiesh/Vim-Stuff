@@ -1,0 +1,103 @@
+{
+  "lastChangelogVersion": "0.84.1",
+  "theme": "catppuccin-mocha",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.6-luna",
+  "packages": [
+    {
+      "source": "npm:pi-web-access",
+      "skills": []
+    },
+    {
+      "source": "npm:@dietrichgebert/ponytail",
+      "skills": []
+    },
+    "npm:pi-vim",
+    {
+      "source": "npm:context-mode",
+      "skills": []
+    },
+    "npm:@narumitw/pi-usage",
+    "npm:@alasano/pi-linear",
+    "npm:@diegopetrucci/pi-notify",
+    "npm:@narumitw/pi-plan-mode",
+    "npm:pi-agentsmd",
+    "npm:pi-subagents",
+    "npm:@sherif-fanous/pi-catppuccin",
+    "npm:@mazli/pi-worktree",
+    "npm:pi-intercom",
+    {
+      "source": "npm:bigpowers",
+      "skills": [
+        "+.pi/skills/using-bigpowers/SKILL.md",
+        "+.pi/skills/survey-context/SKILL.md",
+        "+.pi/skills/session-state/SKILL.md",
+        "+.pi/skills/search-skills/SKILL.md",
+        "+.pi/skills/plan-work/SKILL.md",
+        "+.pi/skills/develop-tdd/SKILL.md",
+        "+.pi/skills/verify-work/SKILL.md",
+        "+.pi/skills/request-review/SKILL.md"
+      ],
+      "prompts": []
+    },
+    "npm:pi-mcp-adapter",
+    "git:github.com/algal/pi-openai-server-compaction"
+  ],
+  "hideThinkingBlock": false,
+  "defaultThinkingLevel": "max",
+  "subagents": {
+    "defaultModel": "openai-codex/gpt-5.6-luna",
+    "modelScope": {
+      "enforce": true,
+      "allow": [
+        "openai-codex/gpt-5.6-luna",
+        "openai-codex/gpt-5.6-terra",
+        "openai-codex/gpt-5.6-sol"
+      ]
+    },
+    "agentOverrides": {
+      "scout": {
+        "model": "openai-codex/gpt-5.6-luna",
+        "thinking": "low"
+      },
+      "delegate": {
+        "model": "openai-codex/gpt-5.6-luna",
+        "thinking": "low"
+      },
+      "worker": {
+        "model": "openai-codex/gpt-5.6-luna",
+        "thinking": "high"
+      },
+      "context-builder": {
+        "model": "openai-codex/gpt-5.6-terra",
+        "thinking": "medium"
+      },
+      "researcher": {
+        "model": "openai-codex/gpt-5.6-terra",
+        "thinking": "medium"
+      },
+      "planner": {
+        "model": "openai-codex/gpt-5.6-terra",
+        "thinking": "high"
+      },
+      "reviewer": {
+        "model": "openai-codex/gpt-5.6-sol",
+        "thinking": "xhigh"
+      },
+      "oracle": {
+        "model": "openai-codex/gpt-5.6-sol",
+        "thinking": "xhigh"
+      }
+    }
+  },
+  "skills": [
+    "-skills/writing-shape/SKILL.md",
+    "+skills/ask-matt/SKILL.md",
+    "+skills/aws-cost-tag-audit/SKILL.md",
+    "+skills/aws-vault/SKILL.md",
+    "+skills/aws-vault-access/SKILL.md",
+    "+skills/batch-grill-me/SKILL.md",
+    "+skills/caveman/SKILL.md",
+    "+skills/claude-handoff/SKILL.md"
+  ]
+}

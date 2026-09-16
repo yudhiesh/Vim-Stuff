@@ -1,0 +1,4 @@
+interface:
+  display_name: "AWS Cost Tag Audit"
+  short_description: "Read-only AWS tag audits and CE spend breakdowns"
+  default_prompt: "Audit selected AWS sections for required base cost allocation tags via aws-vault, and optionally produce Cost Explorer service/\"Others\" breakdowns with optional Linear issue tracking."

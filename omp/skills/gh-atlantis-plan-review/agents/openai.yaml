@@ -1,0 +1,4 @@
+interface:
+  display_name: "Atlantis Plan Review"
+  short_description: "Review Atlantis plans from GitHub PR comments"
+  default_prompt: "Use $gh-atlantis-plan-review to compare the latest Atlantis PR plans with expected infrastructure changes."

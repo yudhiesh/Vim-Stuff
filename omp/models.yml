@@ -1,0 +1,20 @@
+providers:
+  openrouter:
+    baseUrl: https://openrouter.ai/api/v1
+    apiKey: OPENROUTER_API_KEY
+    api: openai-completions
+    models:
+      - id: z-ai/glm-5.3-flash:nitro
+        name: GLM 5.3 Flash (Nitro)
+        input: [text, image]
+        contextWindow: 1310720
+        maxTokens: 131072
+        cost:
+          input: 0.075
+          output: 0.25
+          cacheRead: 0.015
+          cacheWrite: 0
+        thinking:
+          mode: effort
+          efforts: [low, high, max]
+          defaultLevel: max

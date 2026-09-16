@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub PR Review"
+  short_description: "Review PRs with gh CLI using batched comments"
+  default_prompt: "Review a GitHub pull request with code suggestions and batched comments"

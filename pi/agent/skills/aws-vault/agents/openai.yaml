@@ -1,0 +1,4 @@
+interface:
+  display_name: "AWS Vault Access"
+  short_description: "Run AWS CLI safely via aws-vault with user-assisted login/MFA."
+  default_prompt: "Use aws-vault exec <profile> for all AWS commands and explicitly request user interaction when login/MFA prompts appear."
