@@ -1,0 +1,163 @@
+# Vim-Stuff — one-shot machine setup.
+#
+#   new machine:   mise bootstrap --from git@github.com:yudhiesh-oc/Vim-Stuff.git --yes
+#   preview only:  mise bootstrap --dry-run
+#   drift check:   mise bootstrap status   /   mise dot diff   (both read-only)
+#
+# Phase order `mise bootstrap` runs: packages -> repos -> dotfiles ->
+# shell activation -> services -> tools -> `mise run bootstrap` (last).
+min_version = "2026.10"
+
+[settings]
+idiomatic_version_file_enable_tools = ["node", "python"]
+# `mise dot add` defaults to copy, not symlink: config files here are curated
+# snapshots, and a symlink would let a tool rewrite the git-tracked source.
+dotfiles.default_mode = "copy"
+
+# Activate mise in zsh (managed block — safe to re-run, replaces hand-written
+# `eval "$(mise activate zsh)"` lines). zprofile gives login/non-interactive
+# shells shims, so cron/launchd jobs see the mise toolchain too.
+[bootstrap.mise_shell_activate]
+zshrc = "activate"
+zprofile = "shims"
+
+# Background tool updater, so `auto_update` works for PATH-launched tools.
+[bootstrap.services.mise-tool-update]
+builtin = "tool-update"
+
+# ---------------------------------------------------------------------------
+# OS-level packages. Anything versioned lives in [tools] above instead,
+# so brew and mise never both own the same binary.
+# ---------------------------------------------------------------------------
+[bootstrap.brew.taps]
+"agavra/tap" = "https://github.com/agavra/homebrew-tap.git"
+"datadog-labs/pack" = "https://github.com/datadog-labs/homebrew-pack.git"
+"jandedobbeleer/oh-my-posh" = "https://github.com/jandedobbeleer/homebrew-oh-my-posh.git"
+"schpet/tap" = "https://github.com/schpet/homebrew-tap.git"
+"yudhiesh-oc/outline-cli" = "https://github.com/yudhiesh-oc/homebrew-outline-cli.git"
+
+[bootstrap.packages]
+"brew:aws-vault" = "latest"
+"brew:awscli" = "latest"
+"brew:cmake" = "latest"
+"brew:duckdb" = "latest"
+"brew:fd" = "latest"
+"brew:ffmpeg" = "latest"
+"brew:fzf" = "latest"
+"brew:gh" = "latest"
+"brew:git" = "latest"
+"brew:glances" = "latest"
+"brew:googleworkspace-cli" = "latest"
+"brew:herdr" = "latest"
+"brew:hunk" = "latest"
+"brew:k6" = "latest"
+"brew:lazygit" = "latest"
+"brew:libpq" = "latest"
+"brew:mise" = "latest"
+"brew:neovim" = "latest"
+"brew:ninja" = "latest"
+"brew:pixi" = "latest"
+"brew:postgresql@17" = "latest"
+"brew:presenterm" = "latest"
+"brew:restish" = "latest"
+"brew:ripgrep" = "latest"
+"brew:terraform-docs" = "latest"
+"brew:tree" = "latest"
+"brew:zellij" = "latest"
+"brew:zoxide" = "latest"
+"brew:zsh" = "latest"
+"brew:schpet/tap/linear" = "latest"
+"brew:datadog-labs/pack/pup" = "latest"
+"brew:jandedobbeleer/oh-my-posh/oh-my-posh" = "latest"
+"brew:yudhiesh-oc/outline-cli/outline-cli" = "latest"
+"brew:agavra/tap/tuicr" = "latest"
+"brew-cask:kitty" = { os = "macos" }
+"brew-cask:betterdisplay" = { os = "macos" }
+"brew-cask:dbeaver-community" = { os = "macos" }
+"brew-cask:font-iosevka" = { os = "macos" }
+"brew-cask:font-jetbrains-mono" = { os = "macos" }
+"brew-cask:font-jetbrains-mono-nerd-font" = { os = "macos" }
+"brew-cask:keycastr" = { os = "macos" }
+"brew-cask:meetingbar" = { os = "macos" }
+"brew-cask:shortcat" = { os = "macos" }
+# ---------------------------------------------------------------------------
+# Dev toolchain for any machine. Project versions still win: mise reads
+# .nvmrc / .python-version / package.json packageManager.
+# ---------------------------------------------------------------------------
+[tools]
+node = { version = "24", auto_update = "24h", postinstall = "corepack enable" }
+python = { version = "3.12", auto_update = "168h" }
+go = { version = "1.25", auto_update = "168h" }
+
+uv = { version = "latest", auto_update = true }
+just = { version = "latest", auto_update = true }
+pre-commit = { version = "latest", auto_update = true }
+
+atuin = { version = "latest", auto_update = true }
+"aqua:earendil-works/pi" = { version = "latest", auto_update = true }
+
+opentofu = "1.10.6"
+terraform = "1.10"
+tflint = { version = "latest", auto_update = true }
+trivy = { version = "latest", auto_update = true }
+pulumi = { version = "latest", auto_update = true }
+
+kubectl = { version = "latest", auto_update = true }
+actionlint = { version = "latest", auto_update = true }
+shellcheck = { version = "latest", auto_update = true }
+yamllint = { version = "latest", auto_update = true }
+
+golangci-lint = { version = "latest", auto_update = true }
+sqlc = { version = "latest", auto_update = true }
+goreleaser = { version = "latest", auto_update = true }
+gofumpt = { version = "latest", auto_update = true }
+air = { version = "latest", auto_update = true }
+
+ruff = { version = "latest", auto_update = true }
+"aqua:temporalio/cli" = { version = "latest", auto_update = true }
+yq = { version = "latest", auto_update = true }
+buf = { version = "latest", auto_update = true }
+
+claude = { version = "latest", auto_update = true }
+codex = { version = "latest", auto_update = true }
+
+# ---------------------------------------------------------------------------
+# Config files: the copy in this repo is the source of truth.
+# Pull live edits back into the repo with `mise dot add --changed`.
+# ---------------------------------------------------------------------------
+[dotfiles]
+"~/.zshrc" = { source = ".zshrc", mode = "copy" }
+"~/.config/nvim" = { source = "nvim", mode = "symlink-each" }
+"~/.config/kitty/kitty.conf" = { source = "kitty/kitty.conf", mode = "copy" }
+"~/.config/zellij/config.kdl" = { source = "zellij/config.kdl", mode = "copy" }
+"~/.config/atuin/config.toml" = { source = "atuin/config.toml", mode = "copy" }
+"~/.config/ohmyposh/zen.toml" = { source = "ohmyposh/zen.toml", mode = "copy" }
+"~/.config/gh/config.yml" = { source = "gh/config.yml", mode = "copy" }
+"~/.config/herdr/config.toml" = { source = "herdr/config.toml", mode = "copy" }
+"~/.config/tuicr/config.toml" = { source = "tuicr/config.toml", mode = "copy" }
+"~/.config/neru/config.toml" = { source = "neru/config.toml", mode = "copy" }
+
+# oh-my-pi (~/.omp)
+"~/.omp/agent/config.yml" = { source = "omp/config.yml", mode = "copy" }
+"~/.omp/agent/models.yml" = { source = "omp/models.yml", mode = "copy" }
+"~/.omp/agent/mcp.json" = { source = "omp/mcp.json", mode = "copy" }
+"~/.omp/marketplaces.json" = { source = "omp/marketplaces.json", mode = "copy" }
+"~/.omp/agent/themes" = { source = "omp/themes", mode = "symlink-each" }
+"~/.omp/agent/skills" = { source = "omp/skills", mode = "symlink-each" }
+"~/.omp/agent/extensions" = { source = "omp/extensions", mode = "symlink-each" }
+
+# pi (~/.pi)
+"~/.pi/agent/settings.json" = { source = "pi/agent/settings.json", mode = "copy" }
+"~/.pi/agent/extensions" = { source = "pi/agent/extensions", mode = "symlink-each" }
+"~/.pi/agent/skills" = { source = "pi/agent/skills", mode = "symlink-each" }
+
+# ---------------------------------------------------------------------------
+# Last step of `mise bootstrap`: plugin/asset sync that package managers
+# cannot do. Keep it idempotent — it runs on every bootstrap.
+# ---------------------------------------------------------------------------
+[tasks.bootstrap]
+description = "Install editor plugin state and print the toolchain"
+run = [
+  "nvim --headless '+Lazy! sync' +qa",
+  "mise ls --current",
+]
