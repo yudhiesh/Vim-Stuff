@@ -1,8 +1,11 @@
 {
-  "lastChangelogVersion": "0.84.1",
+  "lastChangelogVersion": "1.3.0",
   "theme": "catppuccin-mocha",
   "defaultProvider": "openai-codex",
-  "defaultModel": "gpt-5.6-luna",
+  "defaultModel": "gpt-6-luna",
+  "defaultTools": [
+    "+codemode"
+  ],
   "packages": [
     {
       "source": "npm:pi-web-access",
@@ -26,66 +29,68 @@
     "npm:@sherif-fanous/pi-catppuccin",
     "npm:@mazli/pi-worktree",
     "npm:pi-intercom",
-    {
-      "source": "npm:bigpowers",
-      "skills": [
-        "+.pi/skills/using-bigpowers/SKILL.md",
-        "+.pi/skills/survey-context/SKILL.md",
-        "+.pi/skills/session-state/SKILL.md",
-        "+.pi/skills/search-skills/SKILL.md",
-        "+.pi/skills/plan-work/SKILL.md",
-        "+.pi/skills/develop-tdd/SKILL.md",
-        "+.pi/skills/verify-work/SKILL.md",
-        "+.pi/skills/request-review/SKILL.md"
-      ],
-      "prompts": []
-    },
     "npm:pi-mcp-adapter",
-    "git:github.com/algal/pi-openai-server-compaction"
+    "git:github.com/algal/pi-openai-server-compaction",
+    "npm:@gotgenes/pi-anthropic-auth",
+    "npm:@andrewjacop/pi-herdr"
   ],
-  "hideThinkingBlock": false,
+  "hideThinkingBlock": true,
   "defaultThinkingLevel": "max",
   "subagents": {
-    "defaultModel": "openai-codex/gpt-5.6-luna",
+    "defaultModel": "openai-codex/gpt-6-luna",
     "modelScope": {
       "enforce": true,
       "allow": [
-        "openai-codex/gpt-5.6-luna",
-        "openai-codex/gpt-5.6-terra",
-        "openai-codex/gpt-5.6-sol"
+        "openrouter/deepseek/deepseek-v4.1-flash:nitro",
+        "openai-codex/gpt-6-luna",
+        "anthropic/claude-sonnet-5-5",
+        "anthropic/claude-opus-5-5",
+        "claude-opus-5.5"
       ]
     },
     "agentOverrides": {
       "scout": {
-        "model": "openai-codex/gpt-5.6-luna",
-        "thinking": "low"
+        "model": "openrouter/deepseek/deepseek-v4.1-flash:nitro",
+        "thinking": "medium"
       },
       "delegate": {
-        "model": "openai-codex/gpt-5.6-luna",
+        "model": "openrouter/deepseek/deepseek-v4.1-flash:nitro",
         "thinking": "low"
       },
       "worker": {
-        "model": "openai-codex/gpt-5.6-luna",
+        "model": "openai-codex/gpt-6-luna",
         "thinking": "high"
       },
       "context-builder": {
-        "model": "openai-codex/gpt-5.6-terra",
+        "model": "anthropic/claude-sonnet-5-5",
         "thinking": "medium"
       },
       "researcher": {
-        "model": "openai-codex/gpt-5.6-terra",
+        "model": "anthropic/claude-sonnet-5-5",
         "thinking": "medium"
       },
-      "planner": {
-        "model": "openai-codex/gpt-5.6-terra",
+      "evidence-auditor": {
+        "model": "anthropic/claude-sonnet-5-5",
         "thinking": "high"
       },
-      "reviewer": {
-        "model": "openai-codex/gpt-5.6-sol",
+      "planner": {
+        "model": "anthropic/claude-opus-5-5",
         "thinking": "xhigh"
       },
+      "reviewer": {
+        "model": "anthropic/claude-sonnet-5-5",
+        "thinking": "high"
+      },
       "oracle": {
-        "model": "openai-codex/gpt-5.6-sol",
+        "model": "anthropic/claude-opus-5-5",
+        "thinking": "xhigh"
+      },
+      "claude-code": {
+        "model": "claude-opus-5.5",
+        "thinking": "xhigh"
+      },
+      "claude-code-writer": {
+        "model": "claude-opus-5.5",
         "thinking": "xhigh"
       }
     }
@@ -99,5 +104,11 @@
     "+skills/batch-grill-me/SKILL.md",
     "+skills/caveman/SKILL.md",
     "+skills/claude-handoff/SKILL.md"
-  ]
+  ],
+  "extensions": [
+    "-builtin:mcp"
+  ],
+  "tuiMode": "fullscreen",
+  "fullscreenExitOutput": "transcript",
+  "fullscreenScrollbar": "always"
 }

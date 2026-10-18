@@ -75,9 +75,27 @@ alias c='clear'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+eval "$(atuin init zsh)"
+
+# zsh-vi-mode initializes its keymaps after the other shell integrations and
+# otherwise replaces Atuin's Up-arrow and Ctrl-R bindings.
+_vimstuff_bind_atuin() {
+  bindkey -M emacs '^R' atuin-search
+  bindkey -M viins '^R' atuin-search-viins
+  bindkey -M vicmd '/' atuin-search
+  bindkey -M emacs '^[[A' atuin-up-search
+  bindkey -M viins '^[[A' atuin-up-search-viins
+  bindkey -M vicmd '^[[A' atuin-up-search-vicmd
+}
+zvm_after_init() { _vimstuff_bind_atuin }
+zvm_after_lazy_keybindings() { _vimstuff_bind_atuin }
+
+eval "$(oh-my-posh init zsh --config agnoster)"
 ### End of Zinit's installer chunk
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 
-export PATH="/Users/yravindranath/.pixi/bin:$PATH"
+export PATH="$HOME/.pixi/bin:$PATH"
+
+# Hermes Agent command
+case ":$PATH:" in *":$HOME/.local/bin:"*) ;; *) export PATH="$HOME/.local/bin:$PATH" ;; esac
