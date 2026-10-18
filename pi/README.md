@@ -1,5 +1,10 @@
 # pi
 
-This subtree tracks only `agent/extensions/subagent/config.json`.
+`agent/settings.json` and `agent/skills/` contain portable Pi configuration
+managed from `~/.pi/agent` by the root `mise.toml`. Under `agent/extensions/`,
+only `subagent/config.json` is tracked.
 
-Everything else under the live `~/.pi/agent` tree is runtime state, secrets, caches, or generated integration output and stays untracked.
+Do not commit per-device identifiers, extension credentials (including
+`agent/extensions/linear/credentials.json`), auth state, sessions, history,
+caches, or generated integration output. Re-authenticate extensions on each
+machine.

@@ -32,7 +32,6 @@ builtin = "tool-update"
 [bootstrap.brew.taps]
 "agavra/tap" = "https://github.com/agavra/homebrew-tap.git"
 "datadog-labs/pack" = "https://github.com/datadog-labs/homebrew-pack.git"
-"jandedobbeleer/oh-my-posh" = "https://github.com/jandedobbeleer/homebrew-oh-my-posh.git"
 "schpet/tap" = "https://github.com/schpet/homebrew-tap.git"
 "yudhiesh-oc/outline-cli" = "https://github.com/yudhiesh-oc/homebrew-outline-cli.git"
 
@@ -68,7 +67,6 @@ builtin = "tool-update"
 "brew:zsh" = "latest"
 "brew:schpet/tap/linear" = "latest"
 "brew:datadog-labs/pack/pup" = "latest"
-"brew:jandedobbeleer/oh-my-posh/oh-my-posh" = "latest"
 "brew:yudhiesh-oc/outline-cli/outline-cli" = "latest"
 "brew:agavra/tap/tuicr" = "latest"
 "brew-cask:kitty" = { os = "macos" }
@@ -94,6 +92,24 @@ just = { version = "latest", auto_update = true }
 pre-commit = { version = "latest", auto_update = true }
 
 atuin = { version = "latest", auto_update = true }
+
+# Shell and terminal utilities.
+"oh-my-posh" = "latest"
+pipx = "1.18.1"
+bat = "latest"
+eza = "latest"
+delta = "latest"
+dust = "latest"
+duf = "latest"
+bottom = "latest"
+hyperfine = "latest"
+gping = "latest"
+jq = "latest"
+sd = "latest"
+tealdeer = "latest"
+choose = "latest"
+yazi = "latest"
+
 "aqua:earendil-works/pi" = { version = "latest", auto_update = true }
 
 opentofu = "1.10.6"
@@ -131,7 +147,6 @@ codex = { version = "latest", auto_update = true }
 "~/.config/kitty/kitty.conf" = { source = "kitty/kitty.conf", mode = "copy" }
 "~/.config/zellij/config.kdl" = { source = "zellij/config.kdl", mode = "copy" }
 "~/.config/atuin/config.toml" = { source = "atuin/config.toml", mode = "copy" }
-"~/.config/ohmyposh/zen.toml" = { source = "ohmyposh/zen.toml", mode = "copy" }
 "~/.config/gh/config.yml" = { source = "gh/config.yml", mode = "copy" }
 "~/.config/herdr/config.toml" = { source = "herdr/config.toml", mode = "copy" }
 "~/.config/tuicr/config.toml" = { source = "tuicr/config.toml", mode = "copy" }
