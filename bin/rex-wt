@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# rex-wt [-p path] [-b base] [name]   worktree of the git repo at path (default $PWD) + Rex session running pi
+# rex-wt rm [-p path] <name>          kill session, remove worktree + branch
+set -euo pipefail
+[ "${1:-}" = rm ] && { mode=rm; shift; } || mode=new
+path=$PWD; base=
+while getopts p:b: o; do case $o in p) path=$OPTARG;; b) base=$OPTARG;; *) exit 2;; esac; done; shift $((OPTIND-1))
+common=$(git -C "$path" rev-parse --path-format=absolute --git-common-dir 2>/dev/null) \
+  || { echo "Not a git repository: $path" >&2; exit 2; }
+root=$(dirname "$common"); repo=$(basename "$root")
+name=${1:-worktree-$(openssl rand -hex 2)}
+dir=~/Projects/herdr-worktrees/$repo/$name
+if [ $mode = rm ]; then
+  rex kill "$name" 2>/dev/null || true
+  git -C "$root" worktree remove "$dir"; git -C "$root" branch -D "$name"; exit
+fi
+[ -n "$base" ] || base=$(git -C "$root" symbolic-ref --short refs/remotes/origin/HEAD 2>/dev/null | sed 's|^origin/||' || true)
+[ -n "$base" ] || base=$(git -C "$root" branch --show-current)
+git -C "$root" fetch -q origin "$base" 2>/dev/null || true
+git -C "$root" worktree add -b "$name" "$dir" "origin/$base" 2>/dev/null || git -C "$root" worktree add -b "$name" "$dir" "$base" >&2
+rex new "$name" --window pi -c "$dir" --json -- pi >/dev/null
+rex window new -s "$name" shell -c "$dir" --focus=false >/dev/null
+sid=$(rex ls --json | python3 -c "import sys,json;print(next(s['session_id'] for s in json.load(sys.stdin)['sessions'] if s['label']=='$name'))")
+rex do session.select session_id="$sid" >/dev/null 2>&1 || true
+echo "$name -> $dir"

@@ -152,6 +152,12 @@ codex = { version = "latest", auto_update = true }
 "~/.config/tuicr/config.toml" = { source = "tuicr/config.toml", mode = "copy" }
 "~/.config/neru/config.toml" = { source = "neru/config.toml", mode = "copy" }
 
+# Rex (terminal multiplexer). ctrl+shift+w runs rex-wt: git worktree + Rex session
+# for the focused pane's repo.
+"~/.config/rex/init.lua" = { source = "rex/init.lua", mode = "copy" }
+"~/.config/rex/themes" = { source = "rex/themes", mode = "symlink-each" }
+"~/.local/bin/rex-wt" = { source = "bin/rex-wt", mode = "copy" }
+
 # oh-my-pi (~/.omp)
 "~/.omp/agent/config.yml" = { source = "omp/config.yml", mode = "copy" }
 "~/.omp/agent/models.yml" = { source = "omp/models.yml", mode = "copy" }
