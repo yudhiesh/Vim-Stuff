@@ -25,6 +25,16 @@ zprofile = "shims"
 [bootstrap.services.mise-tool-update]
 builtin = "tool-update"
 
+# pi self-manages its install (~/.pi/agent) and extensions, so mise only
+# schedules `pi update --all` instead of owning the binary.
+[bootstrap.macos.launchd.agents.pi-update]
+program = "~/.pi/agent/bin/pi"
+args = ["update", "--all"]
+start_calendar_interval = { hour = 9, minute = 0 }
+environment = { PATH = "{{env.HOME}}/.local/share/mise/shims:/opt/homebrew/bin:/usr/bin:/bin" }
+stdout_path = "~/Library/Logs/pi-update.log"
+stderr_path = "~/Library/Logs/pi-update.err.log"
+
 # ---------------------------------------------------------------------------
 # OS-level packages. Anything versioned lives in [tools] above instead,
 # so brew and mise never both own the same binary.
@@ -68,8 +78,8 @@ builtin = "tool-update"
 "brew:schpet/tap/linear" = "latest"
 "brew:datadog-labs/pack/pup" = "latest"
 "brew:yudhiesh-oc/outline-cli/outline-cli" = "latest"
-"brew:agavra/tap/tuicr" = "latest"
 "brew-cask:kitty" = { os = "macos" }
+"macos-app:neru" = { version = "1.58.0", url = "https://github.com/y3owk1n/neru/releases/download/v{{version}}/neru-darwin-arm64.zip", sha256 = "30baeaddaa5e7c4355392f971c863b8ab928e84e7be002cea84493bca2671e67", artifact = "Neru.app", os = "macos/arm64" }
 "brew-cask:betterdisplay" = { os = "macos" }
 "brew-cask:dbeaver-community" = { os = "macos" }
 "brew-cask:font-iosevka" = { os = "macos" }
@@ -110,13 +120,12 @@ tealdeer = "latest"
 choose = "latest"
 yazi = "latest"
 
-"aqua:earendil-works/pi" = { version = "latest", auto_update = true }
-
 opentofu = "1.10.6"
 terraform = "1.10"
 tflint = { version = "latest", auto_update = true }
 trivy = { version = "latest", auto_update = true }
 pulumi = { version = "latest", auto_update = true }
+"github:agavra/tuicr" = "latest"
 
 kubectl = { version = "latest", auto_update = true }
 actionlint = { version = "latest", auto_update = true }

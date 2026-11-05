@@ -97,5 +97,8 @@ export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 
 export PATH="$HOME/.pixi/bin:$PATH"
 
+# Let Mise install macOS apps without writing to the system-owned /Applications.
+export MISE_BREW_CASK_OPT_APPDIR="$HOME/Applications"
+
 # Hermes Agent command
 case ":$PATH:" in *":$HOME/.local/bin:"*) ;; *) export PATH="$HOME/.local/bin:$PATH" ;; esac
